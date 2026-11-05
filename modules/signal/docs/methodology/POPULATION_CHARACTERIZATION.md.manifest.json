@@ -1,0 +1,36 @@
+{
+  "manifest_schema_version": 1,
+  "command": "generate-population-report",
+  "generator_sha256": "ab98c43248e08fde8d7eb89495c7184ebbae91d41fef765f735616029729eb26",
+  "population_manifest_sha256": "c0693e5f58d76b13455e6521c74d2ee2740bd5201665412ed7e136af2cac0408",
+  "inputs": [
+    {
+      "path": "C:\\Users\\thiag\\OneDrive\\Documentos\\Mestrado\\Toxicity-OSS\\data\\processed\\disentanglement\\population_participants_v2\\channels.csv",
+      "sha256": "2c113b0600400f5a9a3ca46732391ba90d3f44650532f2c11a061e4007b29cc4"
+    },
+    {
+      "path": "C:\\Users\\thiag\\OneDrive\\Documentos\\Mestrado\\Toxicity-OSS\\data\\processed\\disentanglement\\population_participants_v2\\servers.csv",
+      "sha256": "2494ef84439d28ef0afc43a04aa01e2dad9cb7e97234e077b2eb95964d2c35f1"
+    },
+    {
+      "path": "C:\\Users\\thiag\\OneDrive\\Documentos\\Mestrado\\Toxicity-OSS\\data\\processed\\disentanglement\\population_participants_v2\\temporal_activity.csv",
+      "sha256": "7c2b1a9e03c31f43e1ad2dffa1c936931bf4a6a623b3e108058004d3a7246355"
+    },
+    {
+      "path": "C:\\Users\\thiag\\OneDrive\\Documentos\\Mestrado\\Toxicity-OSS\\data\\processed\\disentanglement\\population_participants_v2\\reply_distances.csv",
+      "sha256": "7aa8c0a5e19f418277af09395ba22e1701197d94009d8769c57aaeafaf9dbda3"
+    },
+    {
+      "path": "C:\\Users\\thiag\\OneDrive\\Documentos\\Mestrado\\Toxicity-OSS\\data\\processed\\disentanglement\\population_participants_v2\\concentration.csv",
+      "sha256": "04e767f3641f813d1d2530ce84ae96988724531d63f09d9f7d0bcada8c26bcfb"
+    },
+    {
+      "path": "C:\\Users\\thiag\\OneDrive\\Documentos\\Mestrado\\Toxicity-OSS\\data\\processed\\disentanglement\\population_participants_v2\\summary.json",
+      "sha256": "5b943b1b54d90c85a3e08cc13853d8828fcabdded95d91a20ef6af49c16f45c0"
+    }
+  ],
+  "output": {
+    "path": "C:\\Users\\thiag\\OneDrive\\Documentos\\Mestrado\\Toxicity-OSS\\docs\\methodology\\POPULATION_CHARACTERIZATION.md",
+    "sha256": "4fd35ef05684ab8c147fed82174d4a3d2595810e29e50397f2290b79cf8065a6"
+  }
+}

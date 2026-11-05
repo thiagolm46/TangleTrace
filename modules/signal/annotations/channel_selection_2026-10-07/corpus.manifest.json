@@ -1,0 +1,40 @@
+{
+  "manifest_schema_version": 1,
+  "command": "remove-excluded-channels",
+  "inputs": [
+    {
+      "path": "C:\\Users\\thiag\\OneDrive\\Documentos\\Mestrado\\Toxicity-OSS\\data\\processed\\filtering\\software\\affinity_v2\\messages_2026-09-21.parquet",
+      "sha256": "ff2097232fe9d9c57e2c470ac6e6af90ed4e474554ae91e8871967f6d6114210",
+      "immutable_source": true
+    },
+    {
+      "path": "C:\\Users\\thiag\\OneDrive\\Documentos\\Mestrado\\Toxicity-OSS\\data\\processed\\filtering\\software\\affinity_v2\\channel_statistics_2026-09-21.parquet",
+      "sha256": "f883f3ab22c4cc0d31ad23527bf85e46030f53ef2bcc83aea41dc3dac96746bb",
+      "immutable_source": true
+    },
+    {
+      "path": "C:\\Users\\thiag\\OneDrive\\Documentos\\Mestrado\\Toxicity-OSS\\data\\processed\\filtering\\software\\affinity_v2\\canais_a_excluir.txt",
+      "sha256": "aac1da513d5b996d7dc69103eae3e8bf9f586a17a2d1bf7e25d86998e0c38b93",
+      "immutable_source": true
+    }
+  ],
+  "parameters": {
+    "excluded_channel_id_count": 282,
+    "batch_size": 100000,
+    "minimum_messages": 500,
+    "minimum_interacting_authors": 5,
+    "low_activity_condition": "total_messages < minimum_messages AND interacting_authors < minimum_interacting_authors"
+  },
+  "counts": {
+    "source_messages": 13275074,
+    "removed_messages": 1357046,
+    "remaining_messages": 11918028
+  },
+  "source_data_policy": "read_only_immutable",
+  "output": {
+    "path": "C:\\Users\\thiag\\OneDrive\\Documentos\\Mestrado\\Toxicity-OSS\\data\\processed\\filtering\\software\\affinity_v2\\messages_2026-10-07_excluded_channels_min500_interacting5.parquet",
+    "format": "parquet",
+    "row_count": 11918028,
+    "sha256": "4f14e1ec13afd3ddc94af63a4440d8395072a4d3045aa5369d035a39eaf71dce"
+  }
+}

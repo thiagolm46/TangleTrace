@@ -1,0 +1,552 @@
+{
+  "schema_version": 1,
+  "profile_id": "software",
+  "profile_version": "1.5.0",
+  "domain": "software",
+  "description": "Interpretable profile for selecting software engineering and OSS servers and channels.",
+  "server": {
+    "fields": [
+      "name",
+      "description",
+      "about",
+      "reasons_to_join",
+      "slug",
+      "vanity_url_code",
+      "keywords"
+    ],
+    "field_weights": {
+      "name": 1,
+      "description": 1,
+      "about": 1,
+      "reasons_to_join": 1,
+      "slug": 1,
+      "vanity_url_code": 1,
+      "keywords": 1
+    },
+    "overlap_policy": "max_per_group",
+    "positive_rules": [
+      {
+        "id": "software-engineering",
+        "label": "software engineering",
+        "pattern": "\\bsoftware[ -]+engineering\\b",
+        "weight": 5,
+        "group": "software-core"
+      },
+      {
+        "id": "software-development",
+        "label": "software development",
+        "pattern": "\\bsoftware[ -]+development\\b",
+        "weight": 5,
+        "group": "software-core"
+      },
+      {
+        "id": "open-source",
+        "label": "open source",
+        "pattern": "\\bopen[ -]?source\\b|(?<![A-Za-z0-9_])oss(?![A-Za-z0-9_])",
+        "weight": 5,
+        "group": "open-source"
+      },
+      {
+        "id": "programming",
+        "label": "programming",
+        "pattern": "\\bprogramming\\b",
+        "weight": 4,
+        "group": "programming-core"
+      },
+      {
+        "id": "coding",
+        "label": "coding",
+        "pattern": "\\bcoding\\b",
+        "weight": 4,
+        "group": "programming-core"
+      },
+      {
+        "id": "developer",
+        "label": "developer",
+        "pattern": "\\bdevelopers?\\b",
+        "weight": 4,
+        "group": "developer-community"
+      },
+      {
+        "id": "development",
+        "label": "development",
+        "pattern": "\\bdevelopment\\b|(?<![A-Za-z0-9_])dev(?![A-Za-z0-9_])",
+        "weight": 2,
+        "group": "developer-community"
+      },
+      {
+        "id": "devops",
+        "label": "devops",
+        "pattern": "\\bdevops\\b|\\bsite reliability engineering\\b|(?<![A-Za-z0-9_])sre(?![A-Za-z0-9_])",
+        "weight": 4,
+        "group": "operations"
+      },
+      {
+        "id": "computer-science",
+        "label": "computer science",
+        "pattern": "\\bcomputer[ -]+science\\b",
+        "weight": 4,
+        "group": "computer-science"
+      },
+      {
+        "id": "web-development",
+        "label": "web development",
+        "pattern": "\\b(?:web(?:site)?[ -]+development|full[ -]?stack|front[ -]?end|back[ -]?end)\\b",
+        "weight": 3,
+        "group": "software-area"
+      },
+      {
+        "id": "api-framework-library",
+        "label": "api/framework/library",
+        "pattern": "\\b(?:apis?|frameworks?|librar(?:y|ies)|sdks?|packages?|plugins?)\\b",
+        "weight": 2,
+        "group": "software-artifact"
+      },
+      {
+        "id": "code-forge",
+        "label": "code forge",
+        "pattern": "\\b(?:github|gitlab|bitbucket)\\b",
+        "weight": 2,
+        "group": "code-forge"
+      },
+      {
+        "id": "database",
+        "label": "database",
+        "pattern": "\\b(?:graph[ -]+database|databases?|neo4j|postgres(?:ql)?|mysql|mongodb)\\b",
+        "weight": 4,
+        "group": "software-platform"
+      },
+      {
+        "id": "python",
+        "label": "python",
+        "pattern": "\\bpython\\b",
+        "weight": 2,
+        "group": "programming-language"
+      },
+      {
+        "id": "javascript",
+        "label": "javascript",
+        "pattern": "\\bjavascript\\b",
+        "weight": 2,
+        "group": "programming-language"
+      },
+      {
+        "id": "typescript",
+        "label": "typescript",
+        "pattern": "\\btypescript\\b",
+        "weight": 2,
+        "group": "programming-language"
+      },
+      {
+        "id": "java",
+        "label": "java",
+        "pattern": "\\bjava(?!script)\\b",
+        "weight": 2,
+        "group": "programming-language"
+      },
+      {
+        "id": "cpp",
+        "label": "c++",
+        "pattern": "(?<![A-Za-z0-9_])c\\+\\+(?![A-Za-z0-9_+])",
+        "weight": 2,
+        "group": "programming-language"
+      },
+      {
+        "id": "csharp",
+        "label": "c#",
+        "pattern": "(?<![A-Za-z0-9_])c#(?![A-Za-z0-9_#])",
+        "weight": 2,
+        "group": "programming-language"
+      },
+      {
+        "id": "systems-languages",
+        "label": "systems language",
+        "pattern": "\\b(?:rust|golang|swift|kotlin|ruby|php)\\b|\\bgo[ -]+language\\b",
+        "weight": 2,
+        "group": "programming-language"
+      },
+      {
+        "id": "cloud-native",
+        "label": "cloud native",
+        "pattern": "\\b(?:docker|kubernetes|k8s|linux|cloud[ -]+native)\\b",
+        "weight": 2,
+        "group": "infrastructure-tool"
+      },
+      {
+        "id": "engineering",
+        "label": "engineering",
+        "pattern": "\\bengineering\\b",
+        "weight": 1,
+        "group": "generic-engineering"
+      },
+      {
+        "id": "cli",
+        "label": "cli",
+        "pattern": "(?<![A-Za-z0-9_])cli(?![A-Za-z0-9_])",
+        "weight": 1,
+        "group": "software-artifact"
+      }
+    ],
+    "negative_rules": [
+      {
+        "id": "nsfw",
+        "label": "nsfw",
+        "pattern": "\\bnsfw\\b|(?<![0-9])18\\+(?![0-9])",
+        "weight": 6,
+        "group": "adult"
+      },
+      {
+        "id": "finance-crypto",
+        "label": "finance/crypto",
+        "pattern": "\\b(?:crypto|nft|forex|trading)\\b",
+        "weight": 4,
+        "group": "finance"
+      },
+      {
+        "id": "dating",
+        "label": "dating",
+        "pattern": "\\b(?:dating|matchmaking)\\b",
+        "weight": 4,
+        "group": "dating"
+      },
+      {
+        "id": "giveaway",
+        "label": "giveaway",
+        "pattern": "\\b(?:giveaways?|drops?)\\b",
+        "weight": 3,
+        "group": "promotion"
+      },
+      {
+        "id": "roleplay",
+        "label": "roleplay",
+        "pattern": "\\brole[ -]?play\\b|(?<![A-Za-z0-9_])rp(?![A-Za-z0-9_])",
+        "weight": 3,
+        "group": "roleplay"
+      },
+      {
+        "id": "game-title",
+        "label": "game title",
+        "pattern": "\\b(?:minecraft|valorant|roblox|fortnite|league of legends|counter[ -]?strike)\\b",
+        "weight": 3,
+        "group": "gaming"
+      },
+      {
+        "id": "anime-manga",
+        "label": "anime",
+        "pattern": "\\b(?:anime|manga)\\b",
+        "weight": 2,
+        "group": "entertainment"
+      },
+      {
+        "id": "music",
+        "label": "music",
+        "pattern": "\\b(?:music|artist|concert)\\b",
+        "weight": 2,
+        "group": "entertainment"
+      },
+      {
+        "id": "meme",
+        "label": "meme",
+        "pattern": "\\bmemes?\\b",
+        "weight": 1,
+        "group": "meme"
+      }
+    ],
+    "selection": {
+      "min_positive_score": 7,
+      "min_score_margin": 2,
+      "max_negative_score": 3,
+      "blocked_negative_labels": [
+        "nsfw",
+        "finance/crypto",
+        "game title"
+      ],
+      "required_positive_labels": []
+    }
+  },
+  "channel": {
+    "metadata_fields": [
+      "channel_name",
+      "channel_category",
+      "channel_description",
+      "topic"
+    ],
+    "overlap_policy": "max_per_group",
+    "positive_rules": [
+      {
+        "id": "support-help",
+        "label": "support/help",
+        "pattern": "\\b(?:help|support|troubleshooting|q(?:na|&a)|questions?)\\b",
+        "weight": 4,
+        "group": "support"
+      },
+      {
+        "id": "bugs-issues",
+        "label": "bugs/issues",
+        "pattern": "\\b(?:bugs?|issues?|bug[ -]?reports?)\\b",
+        "weight": 4,
+        "group": "maintenance"
+      },
+      {
+        "id": "development",
+        "label": "development",
+        "pattern": "\\b(?:development|code|coding|programming|engineering)\\b|(?<![A-Za-z0-9_])dev(?![A-Za-z0-9_])",
+        "weight": 4,
+        "group": "development"
+      },
+      {
+        "id": "api-sdk-cli",
+        "label": "api/sdk/cli",
+        "pattern": "\\b(?:apis?|sdks?)\\b|(?<![A-Za-z0-9_])cli(?![A-Za-z0-9_])",
+        "weight": 3,
+        "group": "interface"
+      },
+      {
+        "id": "documentation",
+        "label": "documentation",
+        "pattern": "\\b(?:docs?|documentation)\\b",
+        "weight": 3,
+        "group": "documentation"
+      },
+      {
+        "id": "release-roadmap",
+        "label": "release/roadmap",
+        "pattern": "\\b(?:releases?|changelog|roadmap)\\b",
+        "weight": 2,
+        "group": "release"
+      },
+      {
+        "id": "install-setup",
+        "label": "install/setup",
+        "pattern": "\\b(?:installation|install|setup|configuration|config)\\b",
+        "weight": 3,
+        "group": "setup"
+      },
+      {
+        "id": "framework-library",
+        "label": "framework/library",
+        "pattern": "\\b(?:frameworks?|librar(?:y|ies)|packages?|plugins?)\\b",
+        "weight": 3,
+        "group": "artifact"
+      },
+      {
+        "id": "git-oss",
+        "label": "git/oss",
+        "pattern": "\\b(?:github|gitlab|git|pull[ -]?requests?|prs?|open[ -]?source)\\b",
+        "weight": 3,
+        "group": "oss"
+      },
+      {
+        "id": "language-tool",
+        "label": "language/tool",
+        "pattern": "\\b(?:python|java(?!script)|javascript|typescript|rust|golang|linux)\\b|\\bgo[ -]+language\\b|(?<![A-Za-z0-9_])c\\+\\+(?![A-Za-z0-9_+])|(?<![A-Za-z0-9_])c#(?![A-Za-z0-9_#])",
+        "weight": 2,
+        "group": "language"
+      },
+      {
+        "id": "software-area",
+        "label": "software-area",
+        "pattern": "\\b(?:backend|frontend|full[ -]?stack|database|devops)\\b",
+        "weight": 2,
+        "group": "software-area"
+      }
+    ],
+    "negative_rules": [
+      {
+        "id": "off-topic",
+        "label": "off-topic",
+        "pattern": "\\b(?:off[ -]?topic|random|casual|hangout)\\b",
+        "weight": 4,
+        "group": "social"
+      },
+      {
+        "id": "memes",
+        "label": "memes",
+        "pattern": "\\b(?:memes?|fun|lol)\\b",
+        "weight": 4,
+        "group": "memes"
+      },
+      {
+        "id": "introductions",
+        "label": "introductions",
+        "pattern": "\\b(?:introductions?|welcome)\\b",
+        "weight": 3,
+        "group": "onboarding"
+      },
+      {
+        "id": "administrative",
+        "label": "administrative",
+        "pattern": "\\b(?:rules?|roles?|moderation|admin)\\b",
+        "weight": 5,
+        "group": "administrative"
+      },
+      {
+        "id": "bot-log",
+        "label": "bot/log",
+        "pattern": "\\b(?:bots?|logs?|audit)\\b",
+        "weight": 5,
+        "group": "automation"
+      },
+      {
+        "id": "voice",
+        "label": "voice",
+        "pattern": "\\bvoice\\b|(?<![A-Za-z0-9_])vc(?![A-Za-z0-9_])",
+        "weight": 4,
+        "group": "voice"
+      },
+      {
+        "id": "spam-giveaway",
+        "label": "spam/giveaway",
+        "pattern": "\\b(?:spam|giveaways?)\\b",
+        "weight": 4,
+        "group": "spam"
+      },
+      {
+        "id": "jobs-career",
+        "label": "jobs/career",
+        "pattern": "\\b(?:jobs?|hiring|career|salary|portfolio)\\b",
+        "weight": 3,
+        "group": "career"
+      },
+      {
+        "id": "marketplace",
+        "label": "marketplace",
+        "pattern": "\\b(?:marketplace|shop|sales?)\\b",
+        "weight": 3,
+        "group": "marketplace"
+      }
+    ],
+    "metadata_normalization": 8,
+    "signals": [
+      {
+        "id": "repository_link",
+        "label": "repository link",
+        "pattern": "(?:github\\.com|gitlab\\.com|bitbucket\\.org)",
+        "count_field": "repository_link_messages",
+        "lexical_weight": 0.15,
+        "lexical_saturation_ratio": 0.02,
+        "domain_weight": 0.25,
+        "domain_saturation_ratio": 0.02
+      },
+      {
+        "id": "issue_pr",
+        "label": "issue/PR workflow",
+        "pattern": "\\b(?:issues?|pull[ -]+requests?|prs?|commits?|merge|branch|bug|fix)\\b",
+        "count_field": "issue_pr_messages",
+        "lexical_weight": 0.15,
+        "lexical_saturation_ratio": 0.05,
+        "domain_weight": 0.2,
+        "domain_saturation_ratio": 0.05
+      },
+      {
+        "id": "programming_term",
+        "label": "programming term",
+        "pattern": "\\b(?:function|class|method|error|exception|api|dependency|library|package|module|variable|object|compile|build|debug|runtime|framework|endpoint|request|response|json|yaml|docker|kubernetes)\\b",
+        "count_field": "programming_term_messages",
+        "lexical_weight": 0.25,
+        "lexical_saturation_ratio": 0.15,
+        "domain_weight": 0.05,
+        "domain_saturation_ratio": 0.15
+      },
+      {
+        "id": "code_command",
+        "label": "code or command",
+        "pattern": "```|`[^`]{2,}`|\\b(?:npm install|pip install|git clone|git checkout|git commit|docker run|docker compose|cargo build|go get|yarn add|pnpm install|apt install|python -m)\\b",
+        "count_field": "code_command_messages",
+        "lexical_weight": 0.2,
+        "lexical_saturation_ratio": 0.08,
+        "domain_weight": 0.05,
+        "domain_saturation_ratio": 0.08
+      },
+      {
+        "id": "file_extension",
+        "label": "source/config file",
+        "pattern": "\\.(?:py|js|ts|tsx|jsx|java|rs|go|json|ya?ml|toml|md|cpp|cs|rb|php|swift|kt|sql)\\b",
+        "count_field": "file_extension_messages",
+        "lexical_weight": 0.1,
+        "lexical_saturation_ratio": 0.04,
+        "domain_weight": 0.05,
+        "domain_saturation_ratio": 0.04
+      },
+      {
+        "id": "log_error",
+        "label": "log or error",
+        "pattern": "\\b(?:stack trace|traceback|typeerror|valueerror|nullpointerexception|segmentation fault|syntaxerror|referenceerror|indexerror|keyerror|exception)\\b|\\berror:",
+        "count_field": "log_error_messages",
+        "lexical_weight": 0.1,
+        "lexical_saturation_ratio": 0.04,
+        "domain_weight": 0.05,
+        "domain_saturation_ratio": 0.04
+      },
+      {
+        "id": "maintenance",
+        "label": "maintenance/release",
+        "pattern": "\\b(?:release|version|breaking change|deprecated|deprecation|changelog|roadmap|milestone|migration|upgrade|update)\\b",
+        "count_field": "maintenance_messages",
+        "lexical_weight": 0.05,
+        "lexical_saturation_ratio": 0.05,
+        "domain_weight": 0.15,
+        "domain_saturation_ratio": 0.05
+      },
+      {
+        "id": "oss_term",
+        "label": "OSS artifact/workflow",
+        "pattern": "\\b(?:open[ -]?source|oss|github|gitlab|repository|repo|issue|pull request|commit|merge|branch|release|license)\\b",
+        "count_field": "oss_term_messages",
+        "lexical_weight": 0,
+        "lexical_saturation_ratio": 0.08,
+        "domain_weight": 0.2,
+        "domain_saturation_ratio": 0.08
+      }
+    ],
+    "component_weights": {
+      "metadata": 0.2,
+      "lexical": 0.6,
+      "domain": 0.2
+    },
+    "classification": {
+      "high_confidence_score": 0.7,
+      "review_score": 0.5,
+      "high_min_lexical_score": 0.3,
+      "fallback_min_lexical_score": 0.45,
+      "fallback_min_domain_score": 0.2,
+      "admin_max_lexical_score": 0.3,
+      "admin_max_domain_score": 0.2,
+      "social_max_lexical_score": 0.35,
+      "admin_negative_labels": [
+        "administrative",
+        "bot/log",
+        "voice",
+        "spam/giveaway"
+      ],
+      "social_negative_labels": [
+        "off-topic",
+        "memes",
+        "introductions",
+        "jobs/career",
+        "marketplace"
+      ],
+      "class_high": "A",
+      "class_review": "B",
+      "class_social": "C",
+      "class_admin": "D",
+      "include_classes": [
+        "A"
+      ],
+      "manual_review_classes": [
+        "B"
+      ]
+    },
+    "conversation_suitability": {
+      "min_human_users": 5,
+      "min_interaction_ratio": 0.05,
+      "min_author_transition_ratio": 0.2,
+      "max_dominant_author_ratio": 0.7,
+      "max_bot_message_ratio": 0.25
+    },
+    "exclude_bot_messages": true,
+    "max_evidence_examples": 5,
+    "score_field": "software_channel_score",
+    "domain_score_field": "oss_evidence_score"
+  }
+}

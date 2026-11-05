@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "profile_id": "software-engineering-server-scoring",
+  "profile_version": "2.2.0",
+  "domain": "software",
+  "description": "Scoring-only profile measuring server affinity with software engineering from curated Discord metadata. Defines neither server selection nor channel classification.",
+  "server": {
+    "fields": ["name", "description", "about", "reasons_to_join", "keywords"],
+    "field_weights": {
+      "name": 1.5,
+      "description": 1.25,
+      "about": 1.0,
+      "reasons_to_join": 1.0,
+      "keywords": 1.0
+    },
+    "overlap_policy": "max_per_group",
+    "confirmation": {
+      "bonus_per_additional_field": 0.5,
+      "max_bonus_per_group": 1.0
+    },
+    "positive_score_field": "software_positive_score",
+    "negative_score_field": "software_negative_score",
+    "affinity_score_field": "software_affinity_score",
+    "positive_rules": [
+      {"id": "software-engineering", "label": "software engineering", "pattern": "\\bsoftware[ -]+engineer(?:ing|s)?\\b|\\bengenharia de software\\b|\\bingenier[ií]a de software\\b|\\bing[ée]nierie logicielle\\b|\\bsoftwareentwicklung\\b", "weight": 5, "group": "software-intent"},
+      {"id": "software-development", "label": "software development", "pattern": "\\bsoftware[ -]+develop(?:ment|ers?)\\b|\\bdesenvolvimento de software\\b|\\bdesenvolvedores? de software\\b|\\bdesarrollo de software\\b|\\bdesarrolladores? de software\\b|\\bd[ée]veloppement logiciel\\b", "weight": 5, "group": "software-intent"},
+      {"id": "application-development", "label": "application development", "pattern": "\\bapplication[ -]+develop(?:ment|ers?)\\b|\\bdesenvolvimento de aplica[cç][oõ]es\\b|\\bdesarrollo de aplicaciones\\b|\\bd[ée]veloppement d['’]applications\\b", "weight": 5, "group": "software-intent"},
+      {"id": "web-development", "label": "web development", "pattern": "\\bweb[ -]+develop(?:ment|ers?)\\b|\\bdesenvolvimento web\\b|\\bdesarrollo web\\b|\\bd[ée]veloppement web\\b", "weight": 5, "group": "software-intent"},
+      {"id": "programming", "label": "programming", "pattern": "\\b(?:programming|coding|programa[cç][aã]o)\\b", "weight": 5, "group": "software-intent"},
+      {"id": "developer-community", "label": "developer community", "pattern": "\\b(?:developer|developers) communit(?:y|ies)\\b|\\bcomunidade de desenvolvedores\\b|\\bcomunidad de desarrolladores\\b|\\bcommunaut[ée] de d[ée]veloppeurs\\b|\\bentwicklergemeinschaft\\b", "weight": 5, "group": "developer-community"},
+      {"id": "developer", "label": "developer", "pattern": "\\b(?:developers?|devs?)\\b|\\bdesenvolvedores?\\b|\\bdesarrolladores?\\b|\\bd[ée]veloppeurs?\\b", "weight": 3, "group": "developer-community"},
+      {"id": "open-source-development", "label": "open source development", "pattern": "\\bopen[ -]?source\\b|\\bc[oó]digo aberto\\b|\\bc[oó]digo abierto\\b|\\bcode source ouvert\\b|\\blogiciel libre\\b", "weight": 5, "group": "open-source"},
+      {"id": "engineering-practice", "label": "software engineering practice", "pattern": "\\b(?:code review|pull requests?|continuous integration|continuous delivery|ci(?:\\s*[/.-]\\s*|\\s+)cd|(?:software|automated|unit|integration|end-to-end|e2e) test(?:ing|s)?|test automation|software architecture|debugging|version control|(?:software|application|code) deployment)\\b", "weight": 4, "group": "engineering-practice"},
+      {"id": "devops-practice", "label": "operations engineering practice", "pattern": "\\b(?:devops|site reliability engineering|sre|platform engineering)\\b", "weight": 4, "group": "engineering-practice"},
+      {"id": "software-specialization", "label": "software specialization", "pattern": "\\b(?:frontend|front[ -]?end|backend|back[ -]?end|full[ -]?stack|mobile development|data engineering|game[ -]?(?:development|dev))\\b", "weight": 3, "group": "software-specialization"},
+      {"id": "software-artifact", "label": "software artifact", "pattern": "\\b(?:apis?|sdks?|frameworks?|librar(?:y|ies)|packages?|plugins?|extensions?|dependenc(?:y|ies)|repositories?|source code|github|gitlab|bitbucket)\\b|\\b(?:code|source|git(?:hub|lab)?) repositor(?:y|ies)\\b", "weight": 3, "group": "software-artifact"},
+      {"id": "programming-language", "label": "programming language", "pattern": "\\b(?:python|javascript|typescript|java(?!script)|rust|golang|kotlin|ruby|php|scala|elixir)\\b|(?<![A-Za-z0-9_])c\\+\\+(?![A-Za-z0-9_+])|(?<![A-Za-z0-9_])c#(?![A-Za-z0-9_#])", "weight": 1, "group": "programming-language"},
+      {"id": "data-platform", "label": "data platform", "pattern": "\\b(?:databases?|postgres(?:ql)?|mysql|mongodb|neo4j|redis|kafka)\\b", "weight": 1, "group": "data-platform"},
+      {"id": "infrastructure-tool", "label": "infrastructure tool", "pattern": "\\b(?:docker|kubernetes|k8s|terraform|linux|aws|azure|gcp)\\b", "weight": 1, "group": "infrastructure-tool"}
+    ],
+    "negative_rules": [
+      {"id": "nsfw", "label": "nsfw", "pattern": "\\bnsfw\\b|(?<![0-9])18\\+(?![0-9])", "weight": 6, "group": "adult"},
+      {"id": "finance-crypto", "label": "finance/crypto", "pattern": "\\b(?:crypto|nft|forex)\\b|(?<!card )(?<!cards )\\btrading(?!\\s+cards?\\b)", "weight": 4, "group": "finance"},
+      {"id": "gaming", "label": "gaming", "pattern": "\\b(?:minecraft|valorant|roblox|fortnite|league of legends|counter[ -]?strike)\\b", "weight": 4, "group": "gaming"},
+      {"id": "dating", "label": "dating", "pattern": "\\b(?:dating|matchmaking)\\b", "weight": 4, "group": "dating"},
+      {"id": "giveaway", "label": "giveaway", "pattern": "\\b(?:giveaways?|airdrops?|twitch drops?)\\b", "weight": 3, "group": "promotion"}
+    ]
+  }
+}

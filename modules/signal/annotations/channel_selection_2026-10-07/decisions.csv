@@ -1,0 +1,690 @@
+guild_id,guild_name,channel_id,channel_name,total_messages,interacting_authors,manual_excluded,low_activity_excluded,retained,decision_reason
+1056895641676152852,CodingWallah,1056895642628276256,🎀│general-chat,3186,171,False,False,True,retained
+1056895641676152852,CodingWallah,1104713092715257857,👉🏼│self_roles,1,0,False,True,False,low_activity
+1056895641676152852,CodingWallah,1104729544960790589,📝│course-update,11,1,False,True,False,low_activity
+1056895641676152852,CodingWallah,1104734004315439214,📷│media,20,5,False,False,True,retained
+1056895641676152852,CodingWallah,1106855901018738718,📝│free-notes,7,0,False,True,False,low_activity
+1056895641676152852,CodingWallah,1108963727543386184,🖲│bot-command,118,31,False,False,True,retained
+1056895641676152852,CodingWallah,1110412687051075714,⛔│notice-board,213,2,False,True,False,low_activity
+1056895641676152852,CodingWallah,1110562483212648518,🔥offcampus-drives,8,0,False,True,False,low_activity
+1056895641676152852,CodingWallah,1111364392559333376,🥇│responsibility,1,0,False,True,False,low_activity
+1056895641676152852,CodingWallah,1113067036239745116,server-booster,6,0,False,True,False,low_activity
+1056895641676152852,CodingWallah,1113728120365776947,🖥│setup-related-issue,49,6,False,False,True,retained
+1056895641676152852,CodingWallah,1113774254803144715,ask-from-mentor,27,6,False,False,True,retained
+1056895641676152852,CodingWallah,1115225453792333966,music-command,5,0,False,True,False,low_activity
+1056895641676152852,CodingWallah,1120944537699897394,🤪│memes,212,8,False,False,True,retained
+1056895641676152852,CodingWallah,1271778126275543040,😊chat-room,1329,66,False,False,True,retained
+1056895641676152852,CodingWallah,1271778820462088212,❓doubt-room,273,26,False,False,True,retained
+1062018115275325480,OpenVic - Community,1062018115275325484,welcome,9006,0,True,False,False,manual_name
+1062018115275325480,OpenVic - Community,1062021872545447936,💬general,140849,863,False,False,True,retained
+1062018115275325480,OpenVic - Community,1062027411526529095,rules,1,0,False,True,False,low_activity
+1062018115275325480,OpenVic - Community,1062140718791004301,🤣memes,28013,430,False,False,True,retained
+1062018115275325480,OpenVic - Community,1062715574590906438,💭faq,4,0,False,True,False,low_activity
+1062018115275325480,OpenVic - Community,1068341812143608009,😊emoji-suggestions,141,14,False,False,True,retained
+1062018115275325480,OpenVic - Community,1071961543442452510,🐈pet-photos,3547,57,True,False,False,manual_name
+1062018115275325480,OpenVic - Community,1074055648687435796,🤖dev-diary-discussion,1232,72,False,False,True,retained
+1062018115275325480,OpenVic - Community,1084770470685052938,📚history,31930,158,False,False,True,retained
+1062018115275325480,OpenVic - Community,1093214935066095686,submissions-general,1083,42,False,False,True,retained
+1062018115275325480,OpenVic - Community,1094714102569517207,🏆submissions,1184,10,False,False,True,retained
+1062018115275325480,OpenVic - Community,1094718769546416278,🏅discussion,1960,54,False,False,True,retained
+1062018115275325480,OpenVic - Community,1097347652510826506,🧠showcase-discussion,1521,93,False,False,True,retained
+1062018115275325480,OpenVic - Community,1098029818186039356,community-showcase,132,25,False,False,True,retained
+1062018115275325480,OpenVic - Community,1103707116700696586,bot-spam,288,20,True,False,False,manual_name
+1062018115275325480,OpenVic - Community,1104094378550632538,💻tech-support,824,35,False,False,True,retained
+1062018115275325480,OpenVic - Community,1105124380612247582,🖥technical-discussion,1066,33,False,False,True,retained
+1062018115275325480,OpenVic - Community,1107087508451369112,voting-discussion,192,15,False,False,True,retained
+1062018115275325480,OpenVic - Community,1114882508224475167,partnered-servers,3,0,False,True,False,low_activity
+1062018115275325480,OpenVic - Community,1140708544031760577,📜full-events-decisions,120,1,False,True,False,low_activity
+1062018115275325480,OpenVic - Community,1140708564244119672,🗳voting,156,0,False,True,False,low_activity
+1062018115275325480,OpenVic - Community,1140709446658568365,📄format,2,0,False,True,False,low_activity
+1062018115275325480,OpenVic - Community,1140709610504851517,🤨how-to-contribute,1,0,False,True,False,low_activity
+1062018115275325480,OpenVic - Community,1140709990601076837,✔do-and-dont,1,0,False,True,False,low_activity
+1062018115275325480,OpenVic - Community,1146182275822784592,🎶music,246,17,False,False,True,retained
+1062018115275325480,OpenVic - Community,1171730756909940756,info-and-links,5,0,False,True,False,low_activity
+1062018115275325480,OpenVic - Community,1288761356127961149,openvic-discussion,1047,28,False,False,True,retained
+1062018115275325480,OpenVic - Community,1289270823621754933,🔨moderation-corner,51,6,False,False,True,retained
+1077324213142175744,Rectify11 Community,1077324214303981594,welcome,14063,1,True,False,False,manual_name
+1077324213142175744,Rectify11 Community,1077324214555656194,rectify11-chat,41921,839,False,False,True,retained
+1077324213142175744,Rectify11 Community,1077324214555656195,rectify11-git,36,2,False,True,False,low_activity
+1077324213142175744,Rectify11 Community,1077324214555656199,desktops-and-setups,19928,473,False,False,True,retained
+1077324213142175744,Rectify11 Community,1077324214555656200,wallpapers,4051,209,True,False,False,manual_name
+1077324213142175744,Rectify11 Community,1077324214832476272,memes,4567,152,False,False,True,retained
+1077324213142175744,Rectify11 Community,1077324214832476275,theme,1392,70,False,False,True,retained
+1077324213142175744,Rectify11 Community,1077332778980479076,shitpost-spam,5405,81,False,False,True,retained
+1077324213142175744,Rectify11 Community,1080264228247719977,casual-chat,584378,943,False,False,True,retained
+1077324213142175744,Rectify11 Community,1095818717327282298,your-art,1106,95,False,False,True,retained
+1077324213142175744,Rectify11 Community,1099322850147586099,bootlegs,1061,47,False,False,True,retained
+1077324213142175744,Rectify11 Community,1106722967234302012,directui,236,35,False,False,True,retained
+1077324213142175744,Rectify11 Community,1125096323079753728,starboard,7,0,False,True,False,low_activity
+1077324213142175744,Rectify11 Community,1139903652069388338,controlpanel,330,41,False,False,True,retained
+1077324213142175744,Rectify11 Community,1155437313023807518,bot-commands,741,26,True,False,False,manual_name
+1077324213142175744,Rectify11 Community,1163242529471336539,startify,1322,72,False,False,True,retained
+1077324213142175744,Rectify11 Community,1163243209384808559,installer,1457,117,False,False,True,retained
+1077324213142175744,Rectify11 Community,1194904976271626341,rectifypad,79,7,False,False,True,retained
+1077324213142175744,Rectify11 Community,1231693344640339988,fusion-chat,45,1,False,True,False,low_activity
+1077324213142175744,Rectify11 Community,1231696905122222200,server-feedback,104,9,False,False,True,retained
+1077324213142175744,Rectify11 Community,1259411007219044455,eol-gadgets,55,7,False,False,True,retained
+1077324213142175744,Rectify11 Community,1314157504967479396,level-logs,1,1,False,True,False,low_activity
+1078542362793492490,LuaCore Framework,1078542363250663460,💌〡دعم-الأعضاء,157,3,False,True,False,low_activity
+1078542362793492490,LuaCore Framework,1078542363250663461,🎉〡الهدايا-والجوائز,81,4,False,True,False,low_activity
+1078542362793492490,LuaCore Framework,1078542363565240351,🧰〡السكربتات-المجانية,47,2,False,True,False,low_activity
+1078542362793492490,LuaCore Framework,1078542363565240352,🎫〡قسم-التذاكر,1,0,False,True,False,low_activity
+1078542362793492490,LuaCore Framework,1078542363565240357,💬〡الشات-العام,4985,396,True,False,False,manual_name
+1078542362793492490,LuaCore Framework,1078542363565240358,🤖〡شات-الأوامر,1387,112,True,False,False,manual_name
+1078542362793492490,LuaCore Framework,1078551098857619500,🟥〡الاشتراكات,1749,397,True,False,False,manual_name
+1078542362793492490,LuaCore Framework,1078684154012643389,💳〡تحويلات-الخدمة,187,34,False,False,True,retained
+1078542362793492490,LuaCore Framework,1078724793077072003,💻〡الإستفسارات-العامة,4464,233,True,False,False,manual_name
+1078542362793492490,LuaCore Framework,1079479134243274904,🤝〡شركاء-النجاح,2,0,False,True,False,low_activity
+1078542362793492490,LuaCore Framework,1079682322372251718,📚〡إقتراحات-الأعضاء,473,112,False,False,True,retained
+1078542362793492490,LuaCore Framework,1103298216390303814,📁〡السكربتات-المنسوخة,7,1,False,True,False,low_activity
+1078542362793492490,LuaCore Framework,1215762889676165301,📸〡عرض-التصاميم,12,1,False,True,False,low_activity
+1078542362793492490,LuaCore Framework,1218713254323421226,⭐〡اراء-العملاء,19,9,False,False,True,retained
+1078542362793492490,LuaCore Framework,1228930642977488959,📊〡التصويتات-البرمجية,15,2,False,True,False,low_activity
+1078542362793492490,LuaCore Framework,1277215845847797811,📺〡اليوتيوب,12,0,False,True,False,low_activity
+1078542362793492490,LuaCore Framework,1286841964511232020,discord-link-mtasa,4,0,False,True,False,low_activity
+1078542362793492490,LuaCore Framework,1309635668292403230,📸〡عرض-المواقع,4,0,False,True,False,low_activity
+1078542362793492490,LuaCore Framework,1317592465288728596,chicago-roleplay,1,1,False,True,False,low_activity
+1080829289412432032,Return Community,1124314155990667396,🔨┇creations,167772,815,False,False,True,retained
+1080829289412432032,Return Community,1135193944863547463,🔍┇next-giveaway-sneak-peek,609,17,True,False,False,manual_name
+1080829289412432032,Return Community,1136202840499572736,💬┇chat-here,215720,1215,False,False,True,retained
+1080829289412432032,Return Community,1136203088601034764,🗿┇meme,2440,162,False,False,True,retained
+1080829289412432032,Return Community,1144734011147690108,👋┇welcome,4648,0,True,False,False,manual_name
+1080829289412432032,Return Community,1144741097122300035,🆕┇server-updates,59,0,False,True,False,low_activity
+1080829289412432032,Return Community,1150688654319157298,🎥┇content,441,14,False,False,True,retained
+1080829289412432032,Return Community,1153677432482713711,🌏┇general-🇹🇭,2477,115,True,False,False,manual_name
+1080829289412432032,Return Community,1156795867953635338,faq,1,0,False,True,False,low_activity
+1080829289412432032,Return Community,1160264181233225799,📷┇medi̇a,2320,165,False,False,True,retained
+1080829289412432032,Return Community,1162389494515900446,🎨┇art,1532,91,False,False,True,retained
+1080829289412432032,Return Community,1165049971356205076,🏷┇claim-roles,2,1,False,True,False,low_activity
+1080829289412432032,Return Community,1168333389703688305,👥┇staff-post,326,12,False,False,True,retained
+1080829289412432032,Return Community,1168399276255219802,📊┇polls,163,6,False,False,True,retained
+1080829289412432032,Return Community,1168556243024101516,👑┇royal-chat,5979,61,False,False,True,retained
+1080829289412432032,Return Community,1171733817590030366,🏅┇levels,96,13,False,False,True,retained
+1080829289412432032,Return Community,1174883936090980472,🤖┇commands,586,24,True,False,False,manual_name
+1080829289412432032,Return Community,1178915447136075846,🏷┇how-to-roles,2,0,False,True,False,low_activity
+1080829289412432032,Return Community,1178931250950578277,💸┇paid,172,23,False,False,True,retained
+1080829289412432032,Return Community,1178931689054023700,✅┇vouch,107,49,False,False,True,retained
+1080829289412432032,Return Community,1178948562550263888,🎉┇events,67,3,False,True,False,low_activity
+1080829289412432032,Return Community,1191691620182143036,🚀┇boosters,267,1,False,True,False,low_activity
+1080829289412432032,Return Community,1192612213861666887,⭐┇featured,1,1,False,True,False,low_activity
+1080829289412432032,Return Community,1242297998969409576,🤝┇partnerships,5,1,False,True,False,low_activity
+1080829289412432032,Return Community,1253401749235044393,💼┇hiring,938,63,False,False,True,retained
+1080829289412432032,Return Community,1255234890404724777,🔗┇socials,2,0,False,True,False,low_activity
+1128239127687598080,Oxylabs,1128239128165761128,┠👋-introductions,4959,306,True,False,False,manual_name
+1128239127687598080,Oxylabs,1128323586856337462,┗📜-rules,2,0,False,True,False,low_activity
+1128239127687598080,Oxylabs,1128323960589783131,┠💬-event-chat,305,24,False,False,True,retained
+1128239127687598080,Oxylabs,1128324022430617672,┠📆-event-updates,21,1,False,True,False,low_activity
+1128239127687598080,Oxylabs,1128324284754968637,┠💬-general,2187,170,False,False,True,retained
+1128239127687598080,Oxylabs,1217395764569968680,┠🤖-ai-parser,25,4,False,True,False,low_activity
+1128239127687598080,Oxylabs,1243472012744331315,┠🗓-calendar,1,0,False,True,False,low_activity
+1128239127687598080,Oxylabs,1252880987734544455,┠🗣-qa-chat-fabien,26,3,False,True,False,low_activity
+1128239127687598080,Oxylabs,1266011129600282710,┠🎁-event-quiz,216,1,False,True,False,low_activity
+1128239127687598080,Oxylabs,1288476244618510356,┠🐭-ai-mouse,36,8,False,False,True,retained
+1128239127687598080,Oxylabs,1293180808064143414,┠🗣-qa-chat-ieva,21,4,False,True,False,low_activity
+1128239127687598080,Oxylabs,1296723200436338728,┠💻-looking-for-dev,71,15,False,False,True,retained
+1128239127687598080,Oxylabs,1296723586354253905,┠🌐-scraping,103,20,False,False,True,retained
+1128239127687598080,Oxylabs,1298910073153654805,┠📢-announcements,21,2,False,True,False,low_activity
+1128239127687598080,Oxylabs,1298910516449771650,┠💬-discussions,17,2,False,True,False,low_activity
+1128239127687598080,Oxylabs,1298910783257972758,┠❔-support,33,7,False,False,True,retained
+1204537856870191114,TikTok Shop Developer Hub,1204537856870191117,general,1068,194,False,False,True,retained
+1204537856870191114,TikTok Shop Developer Hub,1209061602796634132,general-discussions,1022,164,False,False,True,retained
+1204537856870191114,TikTok Shop Developer Hub,1209424774305161237,booster,11,0,False,True,False,low_activity
+1204537856870191114,TikTok Shop Developer Hub,1209459162908598322,education-and-learning,7,0,False,True,False,low_activity
+1204537856870191114,TikTok Shop Developer Hub,1210271326757982238,introductions,541,64,True,False,False,manual_name
+1204537856870191114,TikTok Shop Developer Hub,1210271935016075284,market-trends,42,9,False,False,True,retained
+264137540670324737,OpenRCT2,1093263778814116022,open-scenarios,7212,77,False,False,True,retained
+264137540670324737,OpenRCT2,1257416710378623057,spam-trap,1,0,False,True,False,low_activity
+264137540670324737,OpenRCT2,691735032531779684,development,46938,365,False,False,True,retained
+264137540670324737,OpenRCT2,691736823378083882,localisation,2355,61,False,False,True,retained
+264137540670324737,OpenRCT2,691736850980667514,openrct2-talk,117247,1011,False,False,True,retained
+264137540670324737,OpenRCT2,691752238057783356,open-graphics,38362,177,False,False,True,retained
+264137540670324737,OpenRCT2,692466229952249856,github,1,0,False,True,False,low_activity
+264137540670324737,OpenRCT2,694586451500859469,open-sound-and-music,8611,133,False,False,True,retained
+264137540670324737,OpenRCT2,696130778618396683,plugin,18107,185,False,False,True,retained
+264137540670324737,OpenRCT2,696354733413236776,nederlands,4688,72,True,False,False,manual_name
+264137540670324737,OpenRCT2,736534008296505344,off-topic,27600,305,False,False,True,retained
+264137540670324737,OpenRCT2,750043429312004156,welcome,2,0,True,True,False,manual_and_low_activity
+264137540670324737,OpenRCT2,875468371884380210,help,24889,671,False,False,True,retained
+264137540670324737,OpenRCT2,992015068197814272,additional-content,17241,146,False,False,True,retained
+270264625419911192,Terasology,1125013678966710342,ephermeral-discussions,3988,13,False,False,True,retained
+270264625419911192,Terasology,270264625419911192,terasology,104219,319,False,False,True,retained
+270264625419911192,Terasology,389093174921920512,destination-sol,24810,79,False,False,True,retained
+270264625419911192,Terasology,389095883095932948,introduction,4125,5,True,False,False,manual_name
+270264625419911192,Terasology,409116216322686976,play-ark,1385,6,False,False,True,retained
+270264625419911192,Terasology,411879557247795201,game-lobby,811,16,False,False,True,retained
+270264625419911192,Terasology,503491338465968138,off-topic,15132,92,False,False,True,retained
+270264625419911192,Terasology,519493471220793345,bot-playground,5994,22,True,False,False,manual_name
+270264625419911192,Terasology,522553541676498946,role-react,1,0,False,True,False,low_activity
+270264625419911192,Terasology,541408595577929729,lotr-module,174,5,False,False,True,retained
+270264625419911192,Terasology,552216356364222469,ai,4289,25,False,False,True,retained
+270264625419911192,Terasology,559240070062800906,web-stuff,7204,27,False,False,True,retained
+270264625419911192,Terasology,577139912474886157,biology,3793,16,False,False,True,retained
+270264625419911192,Terasology,577194054022856714,metal-renegades-multi,251,6,False,False,True,retained
+270264625419911192,Terasology,577194115725262912,architecture,3164,19,False,False,True,retained
+270264625419911192,Terasology,591979528432386068,launcher,2691,20,False,False,True,retained
+270264625419911192,Terasology,591982628476026891,rendering,5260,29,False,False,True,retained
+270264625419911192,Terasology,633681387995660303,logistics,11637,29,False,False,True,retained
+270264625419911192,Terasology,652896283677163520,activity-feed,17,1,False,True,False,low_activity
+270264625419911192,Terasology,673695470882783286,rules,2,1,False,True,False,low_activity
+270264625419911192,Terasology,696830442065625118,stabilization,11297,29,False,False,True,retained
+270264625419911192,Terasology,698959573523890197,playtest,1558,25,False,False,True,retained
+270264625419911192,Terasology,701818347238588561,math-n-physics,4636,17,False,False,True,retained
+270264625419911192,Terasology,702893102481932308,world-generation,3030,23,False,False,True,retained
+270264625419911192,Terasology,703047991430217728,ui-ux,3228,24,False,False,True,retained
+270264625419911192,Terasology,708801708545015809,lost,1369,11,False,False,True,retained
+270264625419911192,Terasology,710527864872632421,vc-general,1836,31,False,False,True,retained
+270264625419911192,Terasology,713903952764207164,play-terasology,3905,85,False,False,True,retained
+270264625419911192,Terasology,713904031562727445,play-dest-sol,679,21,False,False,True,retained
+270264625419911192,Terasology,714188700141224036,outreach,3350,16,False,False,True,retained
+270264625419911192,Terasology,714313228271747152,gestalt,2670,17,False,False,True,retained
+270264625419911192,Terasology,733766613253357611,gallery,213,12,True,False,False,manual_name
+270264625419911192,Terasology,736668510582734940,artwork,795,19,False,False,True,retained
+270264625419911192,Terasology,800117138895142913,discuss-git-workflow,86,6,False,False,True,retained
+270264625419911192,Terasology,811692749292175380,play-valheim,698,7,False,False,True,retained
+270264625419911192,Terasology,822117930501799956,documentation,398,11,False,False,True,retained
+270264625419911192,Terasology,882575244215341097,performance,594,13,False,False,True,retained
+270264625419911192,Terasology,914642216922804244,review-hotlist,285,8,False,False,True,retained
+284399832385191936,ImperialPlugins\.com,1301904614567841905,pine-hosting,2,0,False,True,False,low_activity
+284399832385191936,ImperialPlugins\.com,284399832385191936,general,373307,1246,False,False,True,retained
+284399832385191936,ImperialPlugins\.com,284402775071260672,unturned-support,117993,768,False,False,True,retained
+284399832385191936,ImperialPlugins\.com,284402792918155268,rules,4,0,False,True,False,low_activity
+284399832385191936,ImperialPlugins\.com,407952543835226137,memes,43828,186,False,False,True,retained
+284399832385191936,ImperialPlugins\.com,525649215146295297,news,437,13,False,False,True,retained
+284399832385191936,ImperialPlugins\.com,572969584127377419,unturned-help,73423,947,False,False,True,retained
+284399832385191936,ImperialPlugins\.com,585314832191062016,bot-commands,21104,137,True,False,False,manual_name
+284399832385191936,ImperialPlugins\.com,636284605166649344,waywo,25419,163,False,False,True,retained
+284399832385191936,ImperialPlugins\.com,663524633563103233,dev,138319,327,False,False,True,retained
+284399832385191936,ImperialPlugins\.com,741451835193163867,rust-support,874,37,False,False,True,retained
+355231098122272778,MonoGame Discord,1225987443308761119,assets,91,9,False,False,True,retained
+355231098122272778,MonoGame Discord,355231098122272779,monogame-discussion,251367,1027,False,False,True,retained
+355231098122272778,MonoGame Discord,355231151272624138,suggestions,2213,78,False,False,True,retained
+355231098122272778,MonoGame Discord,357384790158213120,off-topic,478631,501,False,False,True,retained
+355231098122272778,MonoGame Discord,402545804776046592,showcase,14170,165,False,False,True,retained
+355231098122272778,MonoGame Discord,402546044274999299,help,276231,1607,False,False,True,retained
+355231098122272778,MonoGame Discord,402546188198608897,programming,224847,789,False,False,True,retained
+355231098122272778,MonoGame Discord,424621790363648021,libraries-discussion,18590,275,False,False,True,retained
+355231098122272778,MonoGame Discord,430942494151147571,welcome,12925,2,True,False,False,manual_name
+355231098122272778,MonoGame Discord,453768164476715010,commercial,645,47,False,False,True,retained
+355231098122272778,MonoGame Discord,484428606542577674,gaming,7842,75,False,False,True,retained
+355231098122272778,MonoGame Discord,487351382987243541,hobby,803,55,False,False,True,retained
+355231098122272778,MonoGame Discord,490325877117157392,non-programming,8346,134,False,False,True,retained
+355231098122272778,MonoGame Discord,502292592789028874,showcase-discussion,27908,218,False,False,True,retained
+355231098122272778,MonoGame Discord,541048059581300736,rules,2,0,False,True,False,low_activity
+355231098122272778,MonoGame Discord,765573299588825088,introductions,1011,54,True,False,False,manual_name
+355231098122272778,MonoGame Discord,766381248439517195,libraries,4,0,False,True,False,low_activity
+355231098122272778,MonoGame Discord,775019135121227797,voice-general,1338,22,False,False,True,retained
+398282199788552193,Kindred Games Community,1157026109322436648,arcane-toybox-chat,289,11,False,False,True,retained
+398282199788552193,Kindred Games Community,1157026177924485150,asset-ideas,23,4,False,True,False,low_activity
+398282199788552193,Kindred Games Community,398282200287543297,general-chat,548515,970,False,False,True,retained
+398282199788552193,Kindred Games Community,398288504066670602,ideas,44169,458,False,False,True,retained
+398282199788552193,Kindred Games Community,398297654360145931,faq,3,1,False,True,False,low_activity
+398282199788552193,Kindred Games Community,399153251141812235,showcase,68619,418,False,False,True,retained
+398282199788552193,Kindred Games Community,400191665119428608,off-topic-n-stuff,71944,288,False,False,True,retained
+398282199788552193,Kindred Games Community,405205466910818305,community-streams,4099,64,False,False,True,retained
+398282199788552193,Kindred Games Community,447512313378111509,game-dev-chat,52335,412,False,False,True,retained
+398282199788552193,Kindred Games Community,508238138209075201,gaming,45918,208,False,False,True,retained
+398282199788552193,Kindred Games Community,508238341058199562,game-jams,23447,250,False,False,True,retained
+398282199788552193,Kindred Games Community,538040526440497183,rules,4,0,False,True,False,low_activity
+398282199788552193,Kindred Games Community,564536484942708736,food,19993,111,False,False,True,retained
+398282199788552193,Kindred Games Community,627232629757837333,welcome,129,0,True,True,False,manual_and_low_activity
+398282199788552193,Kindred Games Community,632274671370502145,swords-n-magic-and-chat,220277,1222,False,False,True,retained
+398282199788552193,Kindred Games Community,632280302781464595,bots,31780,156,False,False,True,retained
+398282199788552193,Kindred Games Community,650215395890036746,fan-content,17904,193,False,False,True,retained
+398282199788552193,Kindred Games Community,753173823406342175,spoiler-chat,118870,785,False,False,True,retained
+398282199788552193,Kindred Games Community,871335987773579274,team-introductions,8,0,False,True,False,low_activity
+398282199788552193,Kindred Games Community,941584884403675177,bug-support,13908,310,False,False,True,retained
+455345206481518593,Tech Haven,583797231505637471,introduce-yourself,2947,136,True,False,False,manual_name
+455345206481518593,Tech Haven,589611193665191936,memes,21943,126,False,False,True,retained
+455345206481518593,Tech Haven,593063949067485204,general,790223,1227,False,False,True,retained
+455345206481518593,Tech Haven,594959636172505088,linux,42,0,False,True,False,low_activity
+455345206481518593,Tech Haven,594959983649620024,networking,36,0,False,True,False,low_activity
+455345206481518593,Tech Haven,594960004465819660,programming,101,1,False,True,False,low_activity
+455345206481518593,Tech Haven,594960027706458144,cybersecurity,116,2,False,True,False,low_activity
+455345206481518593,Tech Haven,594960071809564682,general-tech,26,1,False,True,False,low_activity
+455345206481518593,Tech Haven,594961464603705365,general-it-chat,23752,295,False,False,True,retained
+455345206481518593,Tech Haven,594961505380991039,programming-chat,9984,166,False,False,True,retained
+455345206481518593,Tech Haven,594961554701680640,cybersecurity-chat,9675,199,False,False,True,retained
+455345206481518593,Tech Haven,594961585206722560,networking-chat,7982,114,False,False,True,retained
+455345206481518593,Tech Haven,594961729889370124,electronics-chat,2204,38,False,False,True,retained
+455345206481518593,Tech Haven,595571085865517057,information,3,0,False,True,False,low_activity
+455345206481518593,Tech Haven,638477563324268553,nsfw,17417,96,False,False,True,retained
+455345206481518593,Tech Haven,719555492757897276,windows-chat,4539,73,False,False,True,retained
+455345206481518593,Tech Haven,719555554321629186,linux_unix-chat,11243,172,False,False,True,retained
+455345206481518593,Tech Haven,729787622209355835,rules,2,0,False,True,False,low_activity
+455345206481518593,Tech Haven,733027648841842739,servers-chat,2681,53,False,False,True,retained
+455345206481518593,Tech Haven,733698696918859776,bot-cmds,4901,11,True,False,False,manual_name
+455345206481518593,Tech Haven,736661899936137246,political,29292,85,False,False,True,retained
+455345206481518593,Tech Haven,870388964475953182,pc-builds,3899,65,False,False,True,retained
+455345206481518593,Tech Haven,947700068729905203,failtesters-den,3688,35,False,False,True,retained
+460871933748183040,Docker,460871933748183042,docker,120796,2402,False,False,True,retained
+460871933748183040,Docker,478468481386545171,reverse-proxy,16998,275,False,False,True,retained
+460871933748183040,Docker,478470860806815745,kubernetes,16805,320,False,False,True,retained
+460871933748183040,Docker,478473264205660170,docker-news,3,1,False,True,False,low_activity
+460871933748183040,Docker,496964738706702356,articles-and-links,349,22,False,False,True,retained
+460871933748183040,Docker,502736293810274305,docker-desktop,15000,476,False,False,True,retained
+460871933748183040,Docker,532556917432647685,offtopic,7412,185,False,False,True,retained
+460871933748183040,Docker,577916066349580348,repositories,305,29,False,False,True,retained
+460871933748183040,Docker,581537102244610058,docker-compose,80347,1484,False,False,True,retained
+460871933748183040,Docker,669474776393187328,discussion,41318,973,False,False,True,retained
+460871933748183040,Docker,719860353638596630,announcements,12,1,False,True,False,low_activity
+460871933748183040,Docker,739188454109347912,help-info,1,0,False,True,False,low_activity
+516564332440584221,TheScostumati,1309475406407139358,job-board-automatica,2,0,False,True,False,low_activity
+516564332440584221,TheScostumati,516564332440584227,🍆scostumatezze-random,158101,668,True,False,False,manual_name
+516564332440584221,TheScostumati,531448181318483988,📢annunci,198,6,False,False,True,retained
+516564332440584221,TheScostumati,531524935974387723,⛔regolamento⛔,5,0,False,True,False,low_activity
+516564332440584221,TheScostumati,534305447146946598,🔊music,10158,35,True,False,False,manual_name
+516564332440584221,TheScostumati,535512198706102282,🎮now-playing,6875,68,True,False,False,manual_name
+516564332440584221,TheScostumati,536617067747737601,💲consigli-per-gli-acquisti,3854,73,True,False,False,manual_name
+516564332440584221,TheScostumati,537315904908820490,💥game-news,27302,96,False,False,True,retained
+516564332440584221,TheScostumati,541985837265453066,🎨wip-2d,5359,71,False,False,True,retained
+516564332440584221,TheScostumati,552128852919320596,💪anatomy,120,2,False,True,False,low_activity
+516564332440584221,TheScostumati,669239879334363170,💭movies-comics,4372,51,False,False,True,retained
+516564332440584221,TheScostumati,712650717789421648,🍕master-chef,12504,91,False,False,True,retained
+516564332440584221,TheScostumati,721321990207701052,🌀inspiration,3058,53,False,False,True,retained
+516564332440584221,TheScostumati,761512712713928715,🚀reviews,265,21,False,False,True,retained
+516564332440584221,TheScostumati,765144707696689152,🙊vocal-chat,54841,112,False,False,True,retained
+519640186167099402,💻 Ouckah Lair,1092864102440906803,╮general,58913,509,False,False,True,retained
+519640186167099402,💻 Ouckah Lair,1092864502510399488,╮setups,33,6,False,False,True,retained
+519640186167099402,💻 Ouckah Lair,1092865627993149440,╮gaming,77,5,False,False,True,retained
+519640186167099402,💻 Ouckah Lair,1092865829588193400,welcome,5100,2,True,False,False,manual_name
+519640186167099402,💻 Ouckah Lair,1092866443609124892,：introductions,535,34,False,False,True,retained
+519640186167099402,💻 Ouckah Lair,1092873901761105920,◜work-life,25,3,False,True,False,low_activity
+519640186167099402,💻 Ouckah Lair,1092875758952788089,◜project-stage,4,0,False,True,False,low_activity
+519640186167099402,💻 Ouckah Lair,1092906566379896982,》code,843,33,False,False,True,retained
+519640186167099402,💻 Ouckah Lair,1092906671489159218,》project-showcase,203,26,False,False,True,retained
+519640186167099402,💻 Ouckah Lair,1092940560714702989,》memes,103,9,False,False,True,retained
+519640186167099402,💻 Ouckah Lair,1093215366685134930,》connecting,91,11,False,False,True,retained
+519640186167099402,💻 Ouckah Lair,1093313287824879647,》questions,744,51,False,False,True,retained
+519640186167099402,💻 Ouckah Lair,1094356428321460324,：tutor-introductions,6,0,False,True,False,low_activity
+519640186167099402,💻 Ouckah Lair,1094432919029817437,╮rank,163,8,False,False,True,retained
+519640186167099402,💻 Ouckah Lair,1094442184591286283,╮gpt,7,0,False,True,False,low_activity
+519640186167099402,💻 Ouckah Lair,1096558705320935515,╮no-mic,87,2,False,True,False,low_activity
+519640186167099402,💻 Ouckah Lair,1102763803957006406,╮vods,8,0,False,True,False,low_activity
+519640186167099402,💻 Ouckah Lair,1109970799441498143,》new-coders-resources,51,7,False,False,True,retained
+519640186167099402,💻 Ouckah Lair,1134162236210937946,：resources,10,1,False,True,False,low_activity
+519640186167099402,💻 Ouckah Lair,1283614411738710108,╮fitness,87,6,False,False,True,retained
+519640186167099402,💻 Ouckah Lair,1303115560753561730,╮process,397,9,False,False,True,retained
+519640186167099402,💻 Ouckah Lair,1314739682994552952,╮music,52,1,False,True,False,low_activity
+519640186167099402,💻 Ouckah Lair,1322245231097282612,╮wall-of-shame,7,2,False,True,False,low_activity
+558680594498977792,GameDevSG,1075785552290398359,💗emotional-support,2192,75,False,False,True,retained
+558680594498977792,GameDevSG,1245868774612013086,🤝career-advice🤝,75,11,False,False,True,retained
+558680594498977792,GameDevSG,1245929507354050580,🌎socials-networking-share,111,4,False,True,False,low_activity
+558680594498977792,GameDevSG,1245933685895856128,🎮indie-games,19,2,False,True,False,low_activity
+558680594498977792,GameDevSG,1246088051567099905,game-jobs,21,0,False,True,False,low_activity
+558680594498977792,GameDevSG,1246088189555380264,industry-news,5,0,False,True,False,low_activity
+558680594498977792,GameDevSG,1246089108657278986,jams-jams-jams,1,0,False,True,False,low_activity
+558680594498977792,GameDevSG,1246092502847590481,learning-feed,2,0,False,True,False,low_activity
+558680594498977792,GameDevSG,1246095838803918850,the-indie-feed,2,0,False,True,False,low_activity
+558680594498977792,GameDevSG,1253157053632086086,🎉welcome🎉,3,0,False,True,False,low_activity
+558680594498977792,GameDevSG,1257151246020776080,🎬quarterly-showcase-info🎬,2,0,False,True,False,low_activity
+558680594498977792,GameDevSG,1257154515522682931,🔦spotlight-info🔦,2,0,False,True,False,low_activity
+558680594498977792,GameDevSG,1257493336550539294,📚career-resources📚,2,0,False,True,False,low_activity
+558680594498977792,GameDevSG,1259490328050667531,👋welcome-to-artemis,1,0,False,True,False,low_activity
+558680594498977792,GameDevSG,1259501865868066948,✋critiques-and-feedback,73,7,False,False,True,retained
+558680594498977792,GameDevSG,1269634604432887808,💼artemis-portfolio-submission,50,2,False,True,False,low_activity
+558680594498977792,GameDevSG,558680594498977795,♦👥main-hangout-chat♦,16416,255,False,False,True,retained
+558680594498977792,GameDevSG,675712128652410880,💯discord-dev-updates,163,1,False,True,False,low_activity
+558680594498977792,GameDevSG,676284599701340182,👋introduce-yourself,2584,182,True,False,False,manual_name
+558680594498977792,GameDevSG,676484825628278846,🎨art-and-vfx,6693,152,False,False,True,retained
+558680594498977792,GameDevSG,676484881508859905,🧮programming-and-tech,3231,64,False,False,True,retained
+558680594498977792,GameDevSG,676484919303864343,⏳animation,1425,59,False,False,True,retained
+558680594498977792,GameDevSG,676615865675808808,👾game-design,3408,76,False,False,True,retained
+558680594498977792,GameDevSG,676616420737679360,🚀everything-else,236,21,False,False,True,retained
+558680594498977792,GameDevSG,676737759674630144,🎙audio,668,32,False,False,True,retained
+558680594498977792,GameDevSG,677487756464619530,📝writing,1601,41,False,False,True,retained
+558680594498977792,GameDevSG,681915090290737219,🖥the-matrix,185,5,False,False,True,retained
+558680594498977792,GameDevSG,838955378523111434,✔rules＆faqs,1,0,False,True,False,low_activity
+561997286087852118,Montano Community,561997286562070569,💬┃geral,49480,1172,True,False,False,manual_name
+561997286087852118,Montano Community,703627958837051443,📜┃readme,3,0,False,True,False,low_activity
+561997286087852118,Montano Community,704757495100342372,📚┃english-only,2772,156,False,False,True,retained
+561997286087852118,Montano Community,732993793422524456,💵┃vagas,1016,84,True,False,False,manual_name
+698610475432411196,WWebJS,1024686092940759050,italian,118,11,False,False,True,retained
+698610475432411196,WWebJS,1042097236345110628,russian,552,19,True,False,False,manual_name
+698610475432411196,WWebJS,1229295939496185888,mandarin,3,0,False,True,False,low_activity
+698610475432411196,WWebJS,698610475931271249,general,43898,1697,False,False,True,retained
+698610475432411196,WWebJS,698612530985173002,help-archive,32234,680,False,False,True,retained
+698610475432411196,WWebJS,698618511798567014,suggestions,515,63,False,False,True,retained
+698610475432411196,WWebJS,698622612523188285,off-topic,7391,164,False,False,True,retained
+698610475432411196,WWebJS,744945758649843734,showcase,466,105,False,False,True,retained
+698610475432411196,WWebJS,771829126663110667,portuguese,31839,732,True,False,False,manual_name
+698610475432411196,WWebJS,771829153082900501,spanish,11361,391,True,False,False,manual_name
+698610475432411196,WWebJS,889372198576476180,indonesian,3880,240,True,False,False,manual_name
+698610475432411196,WWebJS,891518457705811968,french,55,8,False,False,True,retained
+698610475432411196,WWebJS,892257829237440522,arabic,226,30,False,False,True,retained
+698610475432411196,WWebJS,904443786548113488,wwebjs,12161,0,False,False,True,retained
+698610475432411196,WWebJS,906316230967820328,turkish,164,19,False,False,True,retained
+698610475432411196,WWebJS,923304514189148240,german,466,13,False,False,True,retained
+698610475432411196,WWebJS,995711591905513602,hebrew,509,32,False,False,True,retained
+706640777450881114,L'Ordre des Devs,1045346613050220564,présentation,228,8,False,False,True,retained
+706640777450881114,L'Ordre des Devs,1045347041909420032,cmd,2017,39,False,False,True,retained
+706640777450881114,L'Ordre des Devs,1045847765017690212,suggestions,173,15,False,False,True,retained
+706640777450881114,L'Ordre des Devs,1063977461873917952,anecdotes,273,26,False,False,True,retained
+706640777450881114,L'Ordre des Devs,1159129848338448485,cloud-perf,2,0,False,True,False,low_activity
+706640777450881114,L'Ordre des Devs,1184611355764990002,lucasfilm,101,4,False,True,False,low_activity
+706640777450881114,L'Ordre des Devs,706642662937067580,discussion,286996,1183,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,1014540824882729000,edgerunners,6480,152,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,1015378649547026462,red4ext-support,25557,1265,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,1016766213755523213,manually_archived_tweak-modding,1780,54,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,1017344556418744320,rules,1,0,False,True,False,low_activity
+717692382849663036,Cyberpunk 2077 Modding Community,1018605291799064596,starboard,4,1,False,True,False,low_activity
+717692382849663036,Cyberpunk 2077 Modding Community,1033120509216444550,blender-add-on,15863,229,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,1036574451237662780,wolvenkit-scripts,1913,38,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,1082772930892664943,mlsetup-builder,5639,78,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,1084570298881413120,kwek-mods,67,10,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,1097844044022956032,deceptious-mods,3353,139,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,1123223580675670026,_server-competition-discussion,1119,13,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,1141547129794478080,blender-add-on-dev,2722,16,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,1156328948351905863,cybercat-dev,66,6,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,1157727395076391043,cet-commands,8730,619,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,1171003964200853594,psiberstuff,13311,81,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,1171107143076806767,psiberx-mods,3118,146,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,1172804635061395456,null-morb-land,3916,59,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,1176204735586512936,if-you-write-here-you-get-banned,11,0,False,True,False,low_activity
+717692382849663036,Cyberpunk 2077 Modding Community,1189685041991798895,cyberverse,20,4,False,True,False,low_activity
+717692382849663036,Cyberpunk 2077 Modding Community,1193294894547083424,redscript-bot-spam,141,7,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,1198799188809490473,thru-the-years,59,3,False,True,False,low_activity
+717692382849663036,Cyberpunk 2077 Modding Community,1198976262765564018,cyanidex-mods,28161,234,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,1206340528158019634,merchants-of-death,1779,60,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,1234194255602257971,contact-an-admin,1,0,False,True,False,low_activity
+717692382849663036,Cyberpunk 2077 Modding Community,1244690869756498020,pc-tech-talk,13603,212,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,1305493236621770822,nexusmods-news,2,0,False,True,False,low_activity
+717692382849663036,Cyberpunk 2077 Modding Community,717719857650466816,boosters,311,0,False,True,False,low_activity
+717692382849663036,Cyberpunk 2077 Modding Community,717720094196760760,wolvenkit-dev,89091,100,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,717721316186390528,scripting,12388,65,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,717721370519142573,texture-modding,32463,364,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,717721419529584723,wolvenkit-github,1873,32,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,727800260486758410,mod-dev-chat,290922,3379,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,727800569158434827,game-chat,496477,4775,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,786134713227935785,reverse-engineering,10365,64,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,786519136833372170,welcome,6,0,True,True,False,manual_and_low_activity
+717692382849663036,Cyberpunk 2077 Modding Community,786891742829215745,textures-and-models,122357,1050,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,786902567778910229,redengine-research,8492,149,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,787603924815314944,screenshots,43821,643,True,False,False,manual_name
+717692382849663036,Cyberpunk 2077 Modding Community,788090406416023582,bot-spam,9529,57,True,False,False,manual_name
+717692382849663036,Cyberpunk 2077 Modding Community,788213273530335233,mod-troubleshooting,11376,457,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,789154618307117096,game-news,41,1,False,True,False,low_activity
+717692382849663036,Cyberpunk 2077 Modding Community,789391457282031616,audio,19487,400,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,789457082712981524,visual-modding,4137,89,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,789565732726767636,save-editing,26491,805,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,789711087158820864,general-chat,569915,6572,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,790730432437157898,spoilers-chat,129041,1034,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,794613856948322344,archived-cet-scripting,34663,83,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,795037292955172895,cet-troubleshooting,97244,4033,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,795037478229901322,cet-chat,3838,55,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,795037494106128434,cet-lua-scripting,38166,464,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,796493553924440084,modding-showcases,1779,122,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,803201431657250857,quests-and-scenes,17102,147,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,804399334246187038,redscript-scripting,36015,336,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,806573564261171270,zine-covers,24,2,False,True,False,low_activity
+717692382849663036,Cyberpunk 2077 Modding Community,807165519018459156,cet-snippets,55,5,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,808086068023918603,wolvenkit-support,60503,998,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,813768799358156880,animations,31623,228,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,814064062815141909,world-editing,15637,138,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,826506889117302875,tweakdb-editing,2050,37,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,839400251680227339,red4ext-cpp,15807,93,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,850450683760869446,music,3426,83,True,False,False,manual_name
+717692382849663036,Cyberpunk 2077 Modding Community,855360508688072725,a-scheena-bot,8409,13,True,False,False,manual_name
+717692382849663036,Cyberpunk 2077 Modding Community,858635881275195401,djkovrik-mods,8627,293,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,858646966019817482,rmk-mods,2699,87,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,860242888376713246,embassy,44,3,False,True,False,low_activity
+717692382849663036,Cyberpunk 2077 Modding Community,867329707787550751,redscript-support,25137,996,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,867332475553054740,redscript-snippets,253,19,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,867333348942675978,red4ext-snippets,6,1,False,True,False,low_activity
+717692382849663036,Cyberpunk 2077 Modding Community,889600112492437594,lore-talk,45223,528,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,933162454836461618,carbine-mods,125,14,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,940651261492068392,red4ext-github,43,2,False,True,False,low_activity
+717692382849663036,Cyberpunk 2077 Modding Community,943294267084922970,red4ext-dumps,15,2,False,True,False,low_activity
+717692382849663036,Cyberpunk 2077 Modding Community,946698855976681473,vortex-extension-support,13748,387,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,953004282142163014,tweakdb-modding,16316,252,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,955663052903178270,archive-xl,11631,212,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,984010932013371393,krat0es-mods,822,41,False,False,True,retained
+717692382849663036,Cyberpunk 2077 Modding Community,999222601803112448,fan-art,10423,236,True,False,False,manual_name
+737141877803057244,Sapphire - Imagine a framework,1012413247011422409,sapphire-esm-only,650,40,False,False,True,retained
+737141877803057244,Sapphire - Imagine a framework,1021836029520515152,sapphire-v4-only-djs-v14-or-more,583,25,False,False,True,retained
+737141877803057244,Sapphire - Imagine a framework,1038884471811879096,answer-overflow-consent,1,0,False,True,False,low_activity
+737141877803057244,Sapphire - Imagine a framework,1049324190026702848,old-music-den,167,6,False,False,True,retained
+737141877803057244,Sapphire - Imagine a framework,1055032566975057970,discord-developer-updates,3,0,False,True,False,low_activity
+737141877803057244,Sapphire - Imagine a framework,1191448052226068503,paginated-messages-v2,106,6,False,False,True,retained
+737141877803057244,Sapphire - Imagine a framework,1214683287142928454,args-v2,7,2,False,True,False,low_activity
+737141877803057244,Sapphire - Imagine a framework,1249350647443361803,cli-development,1127,12,False,False,True,retained
+737141877803057244,Sapphire - Imagine a framework,737142209639350343,off-topic,677544,530,False,False,True,retained
+737141877803057244,Sapphire - Imagine a framework,737142325217722478,old-coding-den,91209,216,False,False,True,retained
+737141877803057244,Sapphire - Imagine a framework,737142503043498015,old-sapphire-support,73479,458,False,False,True,retained
+737141877803057244,Sapphire - Imagine a framework,737142774738190377,framework-development,16655,114,False,False,True,retained
+737141877803057244,Sapphire - Imagine a framework,737142871622156369,pieces-development,1358,20,False,False,True,retained
+737141877803057244,Sapphire - Imagine a framework,737142940777971773,plugins-development,9413,62,False,False,True,retained
+737141877803057244,Sapphire - Imagine a framework,737143305347006564,GitHub Logs,82,3,False,True,False,low_activity
+737141877803057244,Sapphire - Imagine a framework,737452979162054717,#! /bot-commands,11989,120,True,False,False,manual_name
+737141877803057244,Sapphire - Imagine a framework,737455952332062808,suggestions,1,0,False,True,False,low_activity
+737141877803057244,Sapphire - Imagine a framework,750076466099912804,starboard,17,2,False,True,False,low_activity
+737141877803057244,Sapphire - Imagine a framework,750105399172137011,voice-context,3311,30,False,False,True,retained
+737141877803057244,Sapphire - Imagine a framework,750799332445519884,old-discordjs-support,7060,127,False,False,True,retained
+737141877803057244,Sapphire - Imagine a framework,759750007087431721,utilities-development,13177,59,False,False,True,retained
+737141877803057244,Sapphire - Imagine a framework,792132881903386664,mature-chat,10453,80,False,False,True,retained
+737141877803057244,Sapphire - Imagine a framework,795723882556162058,website-development,5917,45,False,False,True,retained
+737141877803057244,Sapphire - Imagine a framework,797263701811396628,Changelogs,32,1,False,True,False,low_activity
+737141877803057244,Sapphire - Imagine a framework,826930829564444732,Moderation Logs,25,1,False,True,False,low_activity
+737141877803057244,Sapphire - Imagine a framework,878754511483723826,old-gaming-den,20329,49,False,False,True,retained
+737141877803057244,Sapphire - Imagine a framework,889973175583133717,old-application-commands-and-interactions,9948,150,False,False,True,retained
+737141877803057244,Sapphire - Imagine a framework,891236949950603294,old-pets-animals-den,2289,29,True,False,False,manual_name
+737141877803057244,Sapphire - Imagine a framework,911641690547302487,Welcome New Members,7804,260,True,False,False,manual_name
+737141877803057244,Sapphire - Imagine a framework,914235414041202758,old-technology-den,13970,42,False,False,True,retained
+737141877803057244,Sapphire - Imagine a framework,934614121687687179,shapeshift-development-⚡,2137,23,False,False,True,retained
+737141877803057244,Sapphire - Imagine a framework,934916302651412512,@plugin-subcommands Chat Input support,1604,19,False,False,True,retained
+773712199729414144,Rosebud AI,819922140685795370,📋┃rules,1,1,False,True,False,low_activity
+773712199729414144,Rosebud AI,819923707114815498,👾┃tokking-bugs,451,35,False,False,True,retained
+773712199729414144,Rosebud AI,945756857706885181,🗣┃tokkingheads,519,40,False,False,True,retained
+773712199729414144,Rosebud AI,947331170906042459,👋┃new-members,21206,529,True,False,False,manual_name
+787399249741479977,Neo4j,1014950472928469104,local-meetups,47,1,False,True,False,low_activity
+787399249741479977,Neo4j,1014975310355243019,portuguese,15,5,True,False,False,manual_name
+787399249741479977,Neo4j,1017491002283540533,spanish,34,2,True,True,False,manual_and_low_activity
+787399249741479977,Neo4j,1052516552517357588,drivers,284,30,False,False,True,retained
+787399249741479977,Neo4j,1082949432523366400,graphstuff-fm,8,0,False,True,False,low_activity
+787399249741479977,Neo4j,1110514116428308501,neo4j-arrows,31,7,False,False,True,retained
+787399249741479977,Neo4j,1119244899309600768,topics-guide,1,0,False,True,False,low_activity
+787399249741479977,Neo4j,1161686426476351530,graphrag,997,75,False,False,True,retained
+787399249741479977,Neo4j,1181594868926128239,dutch,5,1,False,True,False,low_activity
+787399249741479977,Neo4j,787399744955088897,rules,8,1,False,True,False,low_activity
+787399249741479977,Neo4j,787958166801350656,📅events,53,4,False,True,False,low_activity
+787399249741479977,Neo4j,787958373890392064,🙋introduce-yourself,2667,148,True,False,False,manual_name
+787399249741479977,Neo4j,787958964607254558,nodes,216,15,False,False,True,retained
+787399249741479977,Neo4j,788809846949412878,🌞banter,1277,81,False,False,True,retained
+787399249741479977,Neo4j,816627121732059146,product,1721,135,False,False,True,retained
+787399249741479977,Neo4j,816628571387985934,💾release-notes,393,11,False,False,True,retained
+787399249741479977,Neo4j,816630747136786484,data-science,1904,99,False,False,True,retained
+787399249741479977,Neo4j,816630778505986058,app-dev,1981,169,False,False,True,retained
+787399249741479977,Neo4j,816956538512998440,graph-academy,1710,162,False,False,True,retained
+787399249741479977,Neo4j,817316654303150091,🏆leaderboard,191,3,False,True,False,low_activity
+787399249741479977,Neo4j,818578492723036210,graphql,5936,243,False,False,True,retained
+787399249741479977,Neo4j,818578585194594334,cypher,8477,367,False,False,True,retained
+787399249741479977,Neo4j,819843342397079562,❓help-others,192,22,False,False,True,retained
+787399249741479977,Neo4j,819928762107822100,💌suggestions,591,50,False,False,True,retained
+787399249741479977,Neo4j,829976721490837504,hackathon,276,45,False,False,True,retained
+787399249741479977,Neo4j,831067735499866152,apoc,1569,103,False,False,True,retained
+787399249741479977,Neo4j,854674503668990032,aura,1094,100,False,False,True,retained
+787399249741479977,Neo4j,854675261635428353,dev-ops,1162,102,False,False,True,retained
+787399249741479977,Neo4j,858987162035683329,hello,72,10,False,False,True,retained
+787399249741479977,Neo4j,858988472476106763,français,20,3,False,True,False,low_activity
+787399249741479977,Neo4j,859080184938233916,deutsch,22,2,False,True,False,low_activity
+787399249741479977,Neo4j,859317168851779604,visualization,806,61,False,False,True,retained
+787399249741479977,Neo4j,864549789164765184,🎆share-your-graph,91,18,False,False,True,retained
+787399249741479977,Neo4j,872013648707588136,data-models,801,74,False,False,True,retained
+787399249741479977,Neo4j,898138274898538506,integration,322,34,False,False,True,retained
+787399249741479977,Neo4j,930032449679925278,error,758,64,False,False,True,retained
+787399249741479977,Neo4j,968481001162543165,graphconnect,55,11,False,False,True,retained
+806713690182385695,Evolution Software Inc,1009303260865232996,💀┋eᴅᴜꜱᴛ-ᴄꜱ,2,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,1015287908393041981,✍┊ꜱᴇʀᴠɪçᴏꜱ-💵,2,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,1066020796998369351,🎨ꜱᴀɴᴛᴢᴢ-ᴅᴇꜱɪɢɴᴇʀ,1,1,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,1116091544479486103,🌐┋ʙᴜɴᴋᴇʀ-ɪᴀᴛᴇꜱ,4,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,1116816489777999954,🧺┋ꜰᴀʀᴍɪɴɢ,4,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,1116853724514635826,🔥┋ᴏʀɢ-ᴍᴀɴᴀɢᴇʀ,3,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,1171833087013953576,🎶┋ᴇᴠᴏᴍᴜꜱɪᴄ,3,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,1186402685528838236,🎈┋ᴀɪʀᴅʀᴏᴘ,2,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,1201964465990668298,🧸┋ꜰɪᴠᴇᴍ-ᴅᴇꜱᴛɪɴʏ,11,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,1233481169874583612,📒┊fivem-iniciante,1,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,1255201574150602933,📊┋ʜᴜᴅ-ꜰɪᴠᴇᴍ,2,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,1288708898903035916,🎭┋ꜱᴇɴꜱᴀᴄᴏᴇꜱ,2,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,1288713750026653717,🍾┋ʙᴏᴀᴛᴇꜱ,2,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,1291487588628299939,🏪┋ᴍᴀʀᴋᴇᴛ,3,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,1305629681625731123,📊┋ɢᴏᴠᴄᴏɴᴛʀᴏʟ,2,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,1311006252033249371,🎁┊ᴘʀᴇꜱᴇɴᴛᴇ,1,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,1318670465316819085,🌆┋ꜱᴀᴏ-ᴘᴀᴜʟᴏ,1,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,1318670665754345514,🌞┋ʀɪᴏ-ᴅᴇ-ᴊᴀɴᴇɪʀᴏ,1,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,1324761387783688213,📒┊fivem-intermediario,1,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,1324762066707288076,📒┊fivem-avançado,1,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,1324762796067389482,🎨┊front-end,1,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,1324771263306006611,🧩┊lógica,1,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,806713690605748238,🪅┋ᴄᴏɴᴠɪᴛᴇ,1,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,806713690605748239,🐔┊ᴇᴠᴏʟᴜᴛɪᴏɴ,1,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,806713690605748242,💯┊ꜰᴇᴇᴅʙᴀᴄᴋ,141,108,False,False,True,retained
+806713690182385695,Evolution Software Inc,806713690871169066,🚒┋ʙᴏᴍʙᴇɪʀᴏꜱ,3,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,806713690871169067,🪐┋ʙᴀꜱᴇ-ᴇᴠᴏꜱᴛᴀʀ,9,1,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,817234240537493634,📱┋ɪᴘʜᴏɴᴇ,8,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,819755007838519367,🚧┋ꜱᴇᴄᴜʀɪᴛʏ-ꜱʏꜱᴛᴇᴍ,2,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,823230170856685578,🎱┋ᴍᴇꜱᴀ-ᴅᴇ-ꜱɪɴᴜᴄᴀ,2,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,836975037889511474,📂┋ʙᴀᴄᴋᴜᴘ,2,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,839651561261367336,🚜┋ᴇᴠᴏ-ᴋᴀʀᴛ,5,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,839652164070277130,💀┋ꜱᴇʟʟ-ᴅʀᴜɢꜱ,2,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,847632120947933184,💎┋ꜰɪᴠᴇᴍ-ᴅɪᴀᴍᴏɴᴅ,6,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,849381972560314368,📊┋ᴇᴠᴏ-ɢʀᴀᴘɪᴄʜꜱ,3,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,852557504495484938,🦄┋eᴘᴇᴛꜱ,1,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,853326495286951936,🌅┋ʀᴇᴅ-ᴅᴇᴀᴅ-ʀᴇᴅᴇᴍᴘᴛɪᴏɴ,3,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,856317954168717352,🌈┋ꜰɪᴠᴇᴍ-íʀɪꜱ,2,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,881932121067909160,🆕┋ʟᴇᴛʀᴇɪʀᴏ,2,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,897847515578253393,🧠┋ᴄᴏɴꜱᴜʟᴛᴏʀɪᴀ,1,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,899667100619128873,🗽┋ꜰɪᴠᴇᴍ-ɴᴇᴡ-ʏᴏʀᴋ,5,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,904714028524384266,🎉┊ꜱᴏʀᴛᴇɪᴏꜱ,5,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,911292278692266064,⭐┊ɴɪᴛʀᴏ,1,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,918847697182675034,💠┋ᴇᴠᴏɴᴏᴛɪꜰʏ,2,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,950398579619536906,💠┋ꜰɪᴠᴇᴍ-ᴇꜱᴍᴇʀᴀʟᴅᴀ,4,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,950440811173134366,🚘┋ᴄᴏɴᴄᴇꜱꜱɪᴏɴᴀʀɪᴀ,1,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,963220763647819806,📲┋ꜱᴍᴀʀᴛᴘʜᴏɴᴇ,3,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,978676636176244836,🧟┋ᴇᴠᴏʟᴜᴛɪᴏɴ-ᴢ,1,0,False,True,False,low_activity
+806713690182385695,Evolution Software Inc,988149474897563688,🎡┋ᴅɪᴠᴇʀꜱᴀᴏ-ᴇᴠᴏ,2,0,False,True,False,low_activity
+821879810934439936,Kavita,1009566589663850536,development,2609,36,False,False,True,retained
+821879810934439936,Kavita,1011961005930184744,android-dev,149,15,False,False,True,retained
+821879810934439936,Kavita,1037456434822127717,komf,6092,101,False,False,True,retained
+821879810934439936,Kavita,1292838448104734751,melvor-idle,2802,9,False,False,True,retained
+821879810934439936,Kavita,821879810934439939,general,40817,475,False,False,True,retained
+821879810934439936,Kavita,840693141082341406,support,74929,1004,False,False,True,retained
+821879810934439936,Kavita,842537562363134003,lounge,41323,165,False,False,True,retained
+821879810934439936,Kavita,843885824470155344,rules,2,1,False,True,False,low_activity
+821879810934439936,Kavita,851515194185744464,nightly-testing,18475,83,False,False,True,retained
+821879810934439936,Kavita,881971656933916683,donations,2,1,False,True,False,low_activity
+821879810934439936,Kavita,928748255871918190,how-you-found-us,471,38,False,False,True,retained
+821879810934439936,Kavita,932002829579726858,welcome,7105,258,True,False,False,manual_name
+821879810934439936,Kavita,933858494560481360,share-your-own,933,58,False,False,True,retained
+821879810934439936,Kavita,936974355777327114,show-off-your-server,885,52,False,False,True,retained
+821879810934439936,Kavita,973964508374638672,media-suggest,1021,31,False,False,True,retained
+857672921912836116,Andy’s Development,1056223440652218530,giveaways,15,2,False,True,False,low_activity
+857672921912836116,Andy’s Development,1195927194623557704,prism-host,1,0,False,True,False,low_activity
+857672921912836116,Andy’s Development,1219142372160573500,rainmad-scripts,7,0,False,True,False,low_activity
+857672921912836116,Andy’s Development,1223347424248991858,kuzquality,6,0,False,True,False,low_activity
+857672921912836116,Andy’s Development,1327805405119774720,general-chat,31,5,False,False,True,retained
+857672921912836116,Andy’s Development,857745075034914836,bot-commands,2003,71,True,False,False,manual_name
+857672921912836116,Andy’s Development,857791068393308170,suggestions,1814,63,False,False,True,retained
+857672921912836116,Andy’s Development,857802803229360138,general-support,92500,1996,False,False,True,retained
+857672921912836116,Andy’s Development,857802857188163636,reviews,4,0,False,True,False,low_activity
+857672921912836116,Andy’s Development,860867801741000714,gallery,6201,165,True,False,False,manual_name
+894976658229063731,Penusbmic's Server,1007095382066606160,event-announcements,7,2,False,True,False,low_activity
+894976658229063731,Penusbmic's Server,1007266137513398342,asset-packs,320,32,False,False,True,retained
+894976658229063731,Penusbmic's Server,1009891080357036123,dystopian-submissions,12,1,False,True,False,low_activity
+894976658229063731,Penusbmic's Server,1017958075283542057,feedback-and-constructive-criticism,3640,130,False,False,True,retained
+894976658229063731,Penusbmic's Server,1059933950195273740,annoucements,20,0,False,True,False,low_activity
+894976658229063731,Penusbmic's Server,1059937532479029308,general,2804,91,False,False,True,retained
+894976658229063731,Penusbmic's Server,1059947040794230945,bugs-and-crashes,560,26,False,False,True,retained
+894976658229063731,Penusbmic's Server,1060558407024775188,creative-ideas,765,18,False,False,True,retained
+894976658229063731,Penusbmic's Server,1060558489170235503,quality-of-life-improvements,212,10,False,False,True,retained
+894976658229063731,Penusbmic's Server,1061997224638296165,balancing-upgrades-guns-feedback,109,10,False,False,True,retained
+894976658229063731,Penusbmic's Server,1090600226110324756,highscores,726,19,False,False,True,retained
+894976658229063731,Penusbmic's Server,1132134739856334898,general-chat,10507,215,False,False,True,retained
+894976658229063731,Penusbmic's Server,1141713551422132254,event-chat,101,10,False,False,True,retained
+894976658229063731,Penusbmic's Server,1141713605931302992,collector-submissions,22,2,False,True,False,low_activity
+894976658229063731,Penusbmic's Server,1157031822128070706,memes-channel,293,20,False,False,True,retained
+894976658229063731,Penusbmic's Server,1157706811323977758,rules,1,0,False,True,False,low_activity
+894976658229063731,Penusbmic's Server,1157866469649031178,how-to-play-bullet-bunny,1,0,False,True,False,low_activity
+894976658229063731,Penusbmic's Server,1158406736395382924,trick-or-treat-submissions,40,3,False,True,False,low_activity
+894976658229063731,Penusbmic's Server,1207350303079538730,social-media-posts,499,20,False,False,True,retained
+894976658229063731,Penusbmic's Server,1214266074867179610,wiki-editors,17,3,False,True,False,low_activity
+894976658229063731,Penusbmic's Server,1255870308108341328,jobs-collaborations-chat,23,3,False,True,False,low_activity
+894976658229063731,Penusbmic's Server,1299679273992589312,coding-chat,102,9,False,False,True,retained
+894976658229063731,Penusbmic's Server,894976658229063733,welcome,9678,714,True,False,False,manual_name
+894976658229063731,Penusbmic's Server,894976658229063737,itch-chat,5539,185,False,False,True,retained
+894976658229063731,Penusbmic's Server,894976658711400500,upcoming-pack-ideas-and-feedback,528,34,False,False,True,retained
+894976658229063731,Penusbmic's Server,917172543729844244,project-game-showcase,5047,194,False,False,True,retained
+894976658229063731,Penusbmic's Server,930478264693166130,upcoming-tutorial-ideas,157,18,False,False,True,retained
+894976658229063731,Penusbmic's Server,939199936870908014,ranks-and-levels,99,5,False,False,True,retained
+894976658229063731,Penusbmic's Server,957466473259999263,art-showcase,3597,169,True,False,False,manual_name
+894976658229063731,Penusbmic's Server,967135308493778994,quicktutorials,7,0,False,True,False,low_activity
+894976658229063731,Penusbmic's Server,983372379487088660,polls,13,1,False,True,False,low_activity
+894976658229063731,Penusbmic's Server,983389370763603978,animation-showcase,3142,109,True,False,False,manual_name
+894976658229063731,Penusbmic's Server,988812100816236624,penusbmic-links,2,1,False,True,False,low_activity
+926888690310053918,Fermyon,1024646765149950022,cloud,500,54,False,False,True,retained
+926888690310053918,Fermyon,1109140856600023213,spin-plugins,95,12,False,False,True,retained
+926888690310053918,Fermyon,1133472877224665178,sqlite,147,14,False,False,True,retained
+926888690310053918,Fermyon,1148522244277014568,serverless-ai,142,22,False,False,True,retained
+926888690310053918,Fermyon,1171774980254613515,resources,1,0,False,True,False,low_activity
+926888690310053918,Fermyon,1174022324144590981,k8s,67,9,False,False,True,retained
+926888690310053918,Fermyon,1243307104664686694,call-for-papers,2,0,False,True,False,low_activity
+926888690310053918,Fermyon,1246118121828253746,spin-maintenance,132,13,False,False,True,retained
+926888690310053918,Fermyon,926888690310053921,general,1058,86,False,False,True,retained
+926888690310053918,Fermyon,948504918120091668,rules,1,0,False,True,False,low_activity
+926888690310053918,Fermyon,950022897160839248,spin,4389,172,False,False,True,retained
+926888690310053918,Fermyon,950022927468855336,bartholomew,282,21,False,False,True,retained
+926888690310053918,Fermyon,950023151578923028,random,479,41,False,False,True,retained
+926888690310053918,Fermyon,950447584546283580,hippo,40,6,False,False,True,retained
+926888690310053918,Fermyon,950447702880186459,orchestration,4,2,False,True,False,low_activity
+926888690310053918,Fermyon,951251694438735902,introductions,291,37,True,False,False,manual_name
+926888690310053918,Fermyon,954140964379828234,bindle,53,8,False,False,True,retained
+926888690310053918,Fermyon,959485047637958716,welcome,3668,259,True,False,False,manual_name
+926888690310053918,Fermyon,971988031286444092,show-and-tell,157,25,False,False,True,retained
+926888690310053918,Fermyon,989284094724681820,platform,257,23,False,False,True,retained
+933089313405685760,Touhou Game Dev,1068126758253117517,jam-voice-text,4435,52,False,False,True,retained
+933089313405685760,Touhou Game Dev,1119674194192515172,partner-servers,6,0,False,True,False,low_activity
+933089313405685760,Touhou Game Dev,1136052830260707458,touhou-spoilers,7640,42,False,False,True,retained
+933089313405685760,Touhou Game Dev,1145938106139283498,emote-list,84,1,False,True,False,low_activity
+933089313405685760,Touhou Game Dev,1163908653091397662,cirno-mc-chat,6965,25,False,False,True,retained
+933089313405685760,Touhou Game Dev,1193629430166339624,jam-submission-help,606,31,False,False,True,retained
+933089313405685760,Touhou Game Dev,1214427581198114857,rules-info-始めに,15,1,False,True,False,low_activity
+933089313405685760,Touhou Game Dev,1215864272802812026,jam-retrospective-showcase,69,9,False,False,True,retained
+933089313405685760,Touhou Game Dev,1224130852469084221,shame,624,0,False,False,True,retained
+933089313405685760,Touhou Game Dev,1231377195956572210,3d-works,936,20,False,False,True,retained
+933089313405685760,Touhou Game Dev,1287449658364268676,music-links,702,21,False,False,True,retained
+933089313405685760,Touhou Game Dev,1293617429821394954,toho-station-jam,2767,54,False,False,True,retained
+933089313405685760,Touhou Game Dev,1301095373628248074,showcase-committee,744,18,False,False,True,retained
+933089313405685760,Touhou Game Dev,1311998626515390525,films-and-games,1340,25,False,False,True,retained
+933089313405685760,Touhou Game Dev,1324069636894883870,joonuary,292,18,False,False,True,retained
+933089313405685760,Touhou Game Dev,933089314965970985,welcome,2,0,True,True,False,manual_and_low_activity
+933089313405685760,Touhou Game Dev,933089314965970990,introduce-yourself,533,28,True,False,False,manual_name
+933089313405685760,Touhou Game Dev,933089314965970991,general,150807,304,False,False,True,retained
+933089313405685760,Touhou Game Dev,933089315297312880,dev-touhou,26985,158,False,False,True,retained
+933089313405685760,Touhou Game Dev,933089315297312881,dev-other,10739,94,False,False,True,retained
+933089313405685760,Touhou Game Dev,933089315297312882,help-wanted,1602,63,False,False,True,retained
+933089313405685760,Touhou Game Dev,933089315297312883,resources-and-talks,1469,40,False,False,True,retained
+933089313405685760,Touhou Game Dev,933089315737731114,art,20766,175,False,False,True,retained
+933089313405685760,Touhou Game Dev,933089315737731115,music-audio,3351,74,True,False,False,manual_name
+933089313405685760,Touhou Game Dev,933089315737731118,general-advice,14071,95,False,False,True,retained
+933089313405685760,Touhou Game Dev,933089315737731119,unity,13301,64,False,False,True,retained
+933089313405685760,Touhou Game Dev,933089315737731120,gamemaker,6448,48,False,False,True,retained
+933089313405685760,Touhou Game Dev,933089315737731121,unreal,543,13,False,False,True,retained
+933089313405685760,Touhou Game Dev,933089316035506236,godot,6434,62,False,False,True,retained
+933089313405685760,Touhou Game Dev,933089316035506237,rpg-maker,1454,32,False,False,True,retained
+933089313405685760,Touhou Game Dev,933089316035506238,renpy,598,16,False,False,True,retained
+933089313405685760,Touhou Game Dev,933089316035506240,jam-info,11,1,False,True,False,low_activity
+933089313405685760,Touhou Game Dev,933089316035506241,jam-team-forming,3578,170,False,False,True,retained
+933089313405685760,Touhou Game Dev,933089316035506242,jam-discussion,107434,286,False,False,True,retained
+933089313405685760,Touhou Game Dev,933089316035506243,jam-games-discussion,45458,218,False,False,True,retained
+933089313405685760,Touhou Game Dev,933089316035506244,jam-game-release,563,34,False,False,True,retained
+933089313405685760,Touhou Game Dev,933089316035506245,jam-wip-sharing,16051,164,False,False,True,retained
+933089313405685760,Touhou Game Dev,933089316547219557,anime-manga,7507,60,False,False,True,retained
+933089313405685760,Touhou Game Dev,933089316547219558,touhou,244413,236,False,False,True,retained
+933089313405685760,Touhou Game Dev,933089316547219559,gaming,79913,153,False,False,True,retained
+933089313405685760,Touhou Game Dev,933089316547219560,technology,15035,74,False,False,True,retained
+933089313405685760,Touhou Game Dev,933089316547219563,voice-text,47573,96,False,False,True,retained
+933959587462254612,Shardeum,1015137689844076617,🌗・gm-gn,773604,302,True,False,False,manual_name
+933959587462254612,Shardeum,1253938152775749673,🚰・faucet,5950,141,True,False,False,manual_name
+933959587462254612,Shardeum,1255506046504665104,💬・referral,10792,14,True,False,False,manual_name
+933959587462254612,Shardeum,933959587462254615,💬・general,278951,16146,False,False,True,retained
+933959587462254612,Shardeum,938397846510653440,🤣・memes,4371,186,False,False,True,retained
+933959587462254612,Shardeum,986913432936808458,🔗・official-links,1,0,False,True,False,low_activity
+933959587462254612,Shardeum,989127073681526824,📙・playbook,18,0,False,True,False,low_activity

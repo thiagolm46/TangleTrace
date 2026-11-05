@@ -1,0 +1,48 @@
+{
+  "manifest_schema_version": 1,
+  "rule_version": "historical_channels_500_and_5.v1",
+  "created_at_utc": "2026-10-27T20:22:13.254428+00:00",
+  "artifact_policy": "append_only_hash_verified; publish manifest hash in a versioned release; not filesystem write protection",
+  "implementation_sha256": "04c9d8482d7f53d163b34a03b7b6d72c27050c92043acb179a35c31bd0c6fb20",
+  "verified_corpora": [
+    {
+      "path": "C:\\Users\\thiag\\OneDrive\\Documentos\\Mestrado\\Toxicity-OSS\\data\\processed\\filtering\\software\\affinity_v2\\messages_2026-09-21.parquet",
+      "sha256": "ff2097232fe9d9c57e2c470ac6e6af90ed4e474554ae91e8871967f6d6114210"
+    },
+    {
+      "path": "C:\\Users\\thiag\\OneDrive\\Documentos\\Mestrado\\Toxicity-OSS\\data\\processed\\filtering\\software\\affinity_v2\\messages_2026-10-07_excluded_channels_min500_interacting5.parquet",
+      "sha256": "4f14e1ec13afd3ddc94af63a4440d8395072a4d3045aa5369d035a39eaf71dce"
+    }
+  ],
+  "files": [
+    {
+      "name": "statistics.parquet",
+      "sha256": "f883f3ab22c4cc0d31ad23527bf85e46030f53ef2bcc83aea41dc3dac96746bb"
+    },
+    {
+      "name": "exclusions.txt",
+      "sha256": "aac1da513d5b996d7dc69103eae3e8bf9f586a17a2d1bf7e25d86998e0c38b93"
+    },
+    {
+      "name": "statistics.manifest.json",
+      "sha256": "81710f3f78b4caf9d2037e8d68360d691f454431bd674a17273478fef592169d"
+    },
+    {
+      "name": "corpus.manifest.json",
+      "sha256": "8d8b299b78d5f0218de71a05fc0437fcfb9a0c23df18ef1848806946f122f262"
+    },
+    {
+      "name": "decisions.csv",
+      "sha256": "fd8c0daa48f14756d050233029ec2ccbd1443d5debe25e1549f99b947960603f"
+    },
+    {
+      "name": "audit.json",
+      "sha256": "2d23b2918da2a46364f2bc0316ad5d2219b5e17bcdce7f9fe451b0401326f2fa"
+    }
+  ],
+  "limitations": [
+    "interacting_authors cannot be recomputed from messages with a verified historical predicate",
+    "manual exclusion reasons are not available per channel",
+    "552/3 exploratory thresholds and final 500 AND 5 thresholds have no recovered calibration rationale"
+  ]
+}

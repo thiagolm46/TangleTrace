@@ -1,0 +1,27 @@
+{
+  "command": "profile-channels",
+  "counts": {
+    "source_rows": 13275074,
+    "total_channels": 689
+  },
+  "created_at_utc": "2026-09-22T14:11:49.806992+00:00",
+  "inputs": [
+    {
+      "immutable_source": true,
+      "path": "C:\\Users\\thiag\\OneDrive\\Documentos\\Mestrado\\Toxicity-OSS\\data\\processed\\filtering\\software\\affinity_v2\\messages_2026-09-21.parquet",
+      "sha256": "ff2097232fe9d9c57e2c470ac6e6af90ed4e474554ae91e8871967f6d6114210"
+    }
+  ],
+  "manifest_schema_version": 1,
+  "output": {
+    "format": "parquet",
+    "path": "C:\\Users\\thiag\\OneDrive\\Documentos\\Mestrado\\Toxicity-OSS\\data\\processed\\filtering\\software\\affinity_v2\\channel_statistics_2026-09-21.parquet",
+    "row_count": 689,
+    "sha256": "f883f3ab22c4cc0d31ad23527bf85e46030f53ef2bcc83aea41dc3dac96746bb"
+  },
+  "parameters": {
+    "active_day_timezone": "UTC",
+    "interaction_scope": "human_messages"
+  },
+  "source_data_policy": "read_only_immutable"
+}

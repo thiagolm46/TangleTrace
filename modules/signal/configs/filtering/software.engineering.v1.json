@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "profile_id": "software-engineering",
+  "profile_version": "1.1.0",
+  "domain": "software",
+  "description": "Profile for selecting software engineering communities using curated Discord text metadata.",
+  "server": {
+    "fields": ["name", "description", "about", "reasons_to_join", "keywords"],
+    "field_weights": {"name": 1.5, "description": 1.0, "about": 0.8, "reasons_to_join": 0.9, "keywords": 1.75},
+    "overlap_policy": "max_per_group",
+    "positive_rules": [
+      {"id": "software-engineering", "label": "software engineering", "pattern": "\\bsoftware[ -]+engineering\\b|\\bengenharia de software\\b", "weight": 5, "group": "software-core"},
+      {"id": "software-development", "label": "software development", "pattern": "\\bsoftware[ -]+development\\b|\\bdesenvolvimento de software\\b", "weight": 5, "group": "software-core"},
+      {"id": "open-source", "label": "open source", "pattern": "\\bopen[ -]?source\\b|(?<![A-Za-z0-9_])oss(?![A-Za-z0-9_])|\\bc[oó]digo aberto\\b", "weight": 5, "group": "open-source"},
+      {"id": "programming", "label": "programming", "pattern": "\\b(?:programming|coding|programa[cç][aã]o)\\b", "weight": 4, "group": "programming-core"},
+      {"id": "developer", "label": "developer", "pattern": "\\b(?:developers?|devs?)\\b|\\bdesenvolvedores?\\b", "weight": 4, "group": "developer-community"},
+      {"id": "software-practice", "label": "software practice", "pattern": "\\b(?:code review|pull requests?|continuous integration|ci/cd|testing|test automation|architecture|microservices?)\\b", "weight": 4, "group": "engineering-practice"},
+      {"id": "devops", "label": "devops", "pattern": "\\b(?:devops|site reliability engineering|sre|platform engineering)\\b", "weight": 4, "group": "operations"},
+      {"id": "web-mobile-data", "label": "software specialization", "pattern": "\\b(?:frontend|front[ -]?end|backend|back[ -]?end|full[ -]?stack|mobile development|data engineering|machine learning)\\b", "weight": 3, "group": "software-area"},
+      {"id": "software-artifact", "label": "software artifact", "pattern": "\\b(?:apis?|frameworks?|librar(?:y|ies)|sdks?|packages?|plugins?|repositories?)\\b", "weight": 3, "group": "software-artifact"},
+      {"id": "languages", "label": "programming language", "pattern": "\\b(?:python|javascript|typescript|java(?!script)|rust|golang|kotlin|ruby|php|scala|elixir)\\b|(?<![A-Za-z0-9_])c\\+\\+(?![A-Za-z0-9_+])|(?<![A-Za-z0-9_])c#(?![A-Za-z0-9_#])", "weight": 3, "group": "programming-language"},
+      {"id": "data-platform", "label": "data platform", "pattern": "\\b(?:databases?|postgres(?:ql)?|mysql|mongodb|neo4j|redis|kafka)\\b", "weight": 3, "group": "data-platform"},
+      {"id": "cloud-tooling", "label": "cloud tooling", "pattern": "\\b(?:docker|kubernetes|k8s|terraform|linux|aws|azure|gcp)\\b", "weight": 2, "group": "infrastructure-tool"}
+    ],
+    "negative_rules": [
+      {"id": "nsfw", "label": "nsfw", "pattern": "\\bnsfw\\b|(?<![0-9])18\\+(?![0-9])", "weight": 6, "group": "adult"},
+      {"id": "finance-crypto", "label": "finance/crypto", "pattern": "\\b(?:crypto|nft|forex|trading)\\b", "weight": 4, "group": "finance"},
+      {"id": "gaming", "label": "gaming", "pattern": "\\b(?:minecraft|valorant|roblox|fortnite|league of legends|counter[ -]?strike)\\b", "weight": 4, "group": "gaming"},
+      {"id": "dating", "label": "dating", "pattern": "\\b(?:dating|matchmaking)\\b", "weight": 4, "group": "dating"},
+      {"id": "giveaway", "label": "giveaway", "pattern": "\\b(?:giveaways?|drops?)\\b", "weight": 3, "group": "promotion"}
+    ],
+    "selection": {"min_positive_score": 7, "min_score_margin": 3, "max_negative_score": 3, "blocked_negative_labels": ["nsfw", "finance/crypto", "gaming"], "required_positive_labels": []}
+  },
+  "channel": {
+    "metadata_fields": ["channel_name", "channel_category", "channel_description", "topic"],
+    "overlap_policy": "max_per_group",
+    "positive_rules": [{"id": "development", "label": "development", "pattern": "\\b(?:development|code|coding|programming|engineering|bugs?|issues?|support)\\b", "weight": 4, "group": "development"}],
+    "negative_rules": [{"id": "administrative", "label": "administrative", "pattern": "\\b(?:rules?|roles?|moderation|admin|bots?|logs?)\\b", "weight": 5, "group": "administrative"}, {"id": "social", "label": "social", "pattern": "\\b(?:off[ -]?topic|random|memes?|welcome)\\b", "weight": 4, "group": "social"}],
+    "metadata_normalization": 4,
+    "signals": [{"id": "technical", "label": "technical discussion", "pattern": "\\b(?:github|gitlab|issue|pull request|commit|branch|function|class|error|exception|api|dependency|package|compile|build|debug|docker|kubernetes)\\b|```|`[^`]{2,}`", "count_field": "technical_messages", "lexical_weight": 1, "lexical_saturation_ratio": 0.1, "domain_weight": 1, "domain_saturation_ratio": 0.1}],
+    "component_weights": {"metadata": 0.2, "lexical": 0.6, "domain": 0.2},
+    "classification": {"high_confidence_score": 0.7, "review_score": 0.5, "high_min_lexical_score": 0.3, "fallback_min_lexical_score": 0.45, "fallback_min_domain_score": 0.2, "admin_max_lexical_score": 0.3, "admin_max_domain_score": 0.2, "social_max_lexical_score": 0.35, "admin_negative_labels": ["administrative"], "social_negative_labels": ["social"], "class_high": "A", "class_review": "B", "class_social": "C", "class_admin": "D", "include_classes": ["A"], "manual_review_classes": ["B"]},
+    "conversation_suitability": {"min_human_users": 5, "min_interaction_ratio": 0.05, "min_author_transition_ratio": 0.2, "max_dominant_author_ratio": 0.7, "max_bot_message_ratio": 0.25},
+    "exclude_bot_messages": true,
+    "max_evidence_examples": 5,
+    "score_field": "software_channel_score",
+    "domain_score_field": "software_evidence_score"
+  }
+}

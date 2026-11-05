@@ -1,0 +1,19 @@
+[package]
+name = "tangletrace-between"
+version = "0.3.0"
+description = "TangleTrace BETWEEN: local reply-link annotation and review"
+edition = "2021"
+rust-version = "1.88"
+
+[build-dependencies]
+tauri-build = { version = "=2.6.3", features = [] }
+
+[dependencies]
+tauri = { version = "=2.11.5", features = [] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rfd = { version = "=0.16.0", default-features = false }
+
+[features]
+default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]

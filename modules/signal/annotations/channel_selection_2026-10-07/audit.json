@@ -1,0 +1,25 @@
+{
+  "rule_version": "historical_channels_500_and_5.v1",
+  "counts": {
+    "source_channels": 689,
+    "manual_excluded": 66,
+    "low_activity_excluded": 221,
+    "overlap": 5,
+    "excluded_channels": 282,
+    "retained_channels": 407,
+    "source_messages": 13275074,
+    "removed_messages": 1357046,
+    "remaining_messages": 11918028,
+    "retained_channels_below_500_messages": 110
+  },
+  "distinct_manual_names": 47,
+  "unmatched_manual_names": [],
+  "verification": "actual source and retained hashes, channel membership and per-channel row counts match the frozen statistics and decisions",
+  "reproducibility_scope": "decision replay from frozen historical statistics; not reconstruction of interacting_authors or manual judgments",
+  "historical_metric_definition": "unrecovered",
+  "exploratory_rule": {
+    "condition": "total_messages >= 552 AND unique_authors >= 3",
+    "role": "exploratory inspection only; not an input mask to the final selection",
+    "threshold_change_rationale": "no contemporaneous justification recovered; no claim of statistical calibration or equivalence"
+  }
+}
